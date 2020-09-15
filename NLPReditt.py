@@ -15,6 +15,8 @@ from datetime import datetime
 #%%
 reddit = praw.Reddit(client_id='i50mJ36xx4Y-Dw', client_secret='8b3CD0iN1D7UEGH5bFr7rOPBBBQ', user_agent='hprofessional')
 #%%
+import os
+os.chdir(r"/Users/hiteekshamathur/Desktop/MFE/UCLA/RA/ThomasRA")
 # get 10 hot posts from the  subreddit
 hot_posts = reddit.subreddit('thelongdark').hot(limit=10)
 for post in hot_posts:
@@ -28,15 +30,15 @@ posts = []
 thelongdark_subreditt = reddit.subreddit('thelongdark')
 
 
-for post in thelongdark_subreditt.hot(limit=10):
+for post in thelongdark_subreditt.hot(limit=50):
     #print()
     #score= upvotes
     post.time=datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d %H:%M:%S')
     post.created=(datetime.fromtimestamp(post.created).strftime('%Y-%m-%d %H:%M:%S'))    
     posts.append([post.title, post.score, post.author,post.id, post.subreddit, post.url, post.num_comments, post.selftext,post.time])
-posts = pd.DataFrame(posts,columns=['title', 'score', 'author','id', 'subreddit', 'url', 'num_comments', 'text', 'creation_date_time'])
+posts = pd.DataFrame(posts,columns=['title', 'upvotes', 'author','id', 'subreddit', 'url', 'num_comments', 'text', 'creation_date_time'])
 print(posts)
-
+posts.to_csv('Posts.csv')
 # get  subreddit data
 thelongdark_subreditt = reddit.subreddit('thelongdark')
 
@@ -44,11 +46,12 @@ print(thelongdark_subreditt.description)
 
 #%%
 #Get comments from a specific post
-submission = reddit.submission(url="https://www.reddit.com/r/thelongdark/comments/iofcb0/mystery_lake_mystery_tower/")
+title='Hi /r/thelongdark! Please share your weekly playthrough'
+submission = reddit.submission(url="https://www.reddit.com/r/thelongdark/comments/ipqiye/saw_my_first_moose/")
 #submission = reddit.submission(url="https://www.reddit.com/r/MapPorn/comments/a3p0uq/an_image_of_gps_tracking_of_multiple_wolves_in/")
 # or 
 #submission = reddit.submission(id="a3p0uq")
-
+comments=[]
 for top_level_comment in submission.comments:
     if isinstance(top_level_comment, MoreComments):
         continue
@@ -56,7 +59,12 @@ for top_level_comment in submission.comments:
     
 submission.comments.replace_more(limit=0)
 for comment in submission.comments.list():
-    print(comment.body)
+    comm_body=comment.body
+    comments.append([title,comm_body])
+comments=pd.DataFrame(comments,columns=['submission','Commennts'])
+    #print(comment.body)
+comments.to_csv('Comments.csv')
+
 #%%
 import requests
 import spacy 
