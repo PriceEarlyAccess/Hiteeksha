@@ -1,5 +1,3 @@
 ,Name,ID,comment_karma,comments,Acc creation,has_verified_email,mods_any_subreddits
-0,Harabeck,4blbu,56721,<praw.models.listing.mixins.redditor.SubListing object at 0x7fb7d8bf4860>,1283866418.0,True,True
-1,LumberingTroll,6vkyy,2768,<praw.models.listing.mixins.redditor.SubListing object at 0x7fb7d8d5b6d8>,1328759578.0,True,True
-2,shojin,7ukfj,13,<praw.models.listing.mixins.redditor.SubListing object at 0x7fb7d9a50128>,1338394536.0,,True
-3,bls_tehsid,iuhiq,9,<praw.models.listing.mixins.redditor.SubListing object at 0x7fb7d7ce5f98>,1413253247.0,True,True
+0,Phantomsmedia,6ct1m,2487,<praw.models.listing.mixins.redditor.SubListing object at 0x7f9728af4f28>,1322799784.0,True,True
+1,TarBenderr,a3jdm,7244,<praw.models.listing.mixins.redditor.SubListing object at 0x7f972c525780>,1357278928.0,True,True

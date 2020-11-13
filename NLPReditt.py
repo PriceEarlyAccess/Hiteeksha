@@ -17,87 +17,135 @@ os.chdir(r"/Users/hiteekshamathur/Desktop/MFE/UCLA/RA/ThomasRA")
 #%%
 reddit = praw.Reddit(client_id='i50mJ36xx4Y-Dw', client_secret='8b3CD0iN1D7UEGH5bFr7rOPBBBQ', user_agent='hprofessional')
 #%% GAMES
+#game='1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)' 
+#game='Drunken Robot Pornography' 
+#game='Gear Up' 
+#o Patterns 
 
-game='combinedarms'
-
+game='arma3'
+#game='gnomoria'
+#game='kenshi' 
+#game='KerbalSpaceProgram' 
+#game='prisonarchitect'
+#game='starforge'
+#game='UnderTheOcean'
+#game='combinedarms'
 #game='KineticVoid'
 #game='thelongdark'
 #reddit.redditor(game).id
-#%% POSTS
 
-# get 10 hot posts from the  subreddit
-hot_posts = reddit.subreddit(game).hot()
-#hot_posts = reddit.subreddit(game).hot(limit=10)
-for post in hot_posts:
-    print(post.title)
+def GameResults(game):
+    #%% POSTS
     
-# get hottest posts from all subreddits
-#hot_posts = reddit.subreddit('all').hot(limit=10)
-hot_posts = reddit.subreddit('all').hot()
-for post in hot_posts:
-    print(post.title)
-
-posts = []
-game_subreditt = reddit.subreddit(game)
-
-
-#for post in game_subreditt.hot(limit=50):
-for post in game_subreditt.hot():
-    #print()
-    #score= upvotes
-    post.time=datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d %H:%M:%S')
-    post.created=(datetime.fromtimestamp(post.created).strftime('%Y-%m-%d %H:%M:%S'))    
-    posts.append([post.title, post.score, post.author,post.id, post.subreddit, post.url, post.num_comments, post.selftext,post.time])
-posts = pd.DataFrame(posts,columns=['title', 'upvotes', 'author','id', 'subreddit', 'url', 'num_comments', 'text', 'creation_date_time'])
-#print(posts)
-posts.to_csv('Posts.csv')
-# get  subreddit data
-game_subreditt = reddit.subreddit(game)
-
-#print(game_subreditt.description)
-
-#%% COMMENTS
-
-comments_array=[]
-for i in range(len(posts)):
-#Get comments from a specific post
-    title=posts.loc[i,'title']
-#    submission = reddit.submission(url=posts.loc[i,'url'])
-    submission = reddit.submission(id=posts.loc[i,'id'])
-    
-#    print(i)
-    #submission = reddit.submission(url="https://www.reddit.com/r/MapPorn/comments/a3p0uq/an_image_of_gps_tracking_of_multiple_wolves_in/")
-    # or 
-    #submission = reddit.submission(id="a3p0uq")
-    
-    for top_level_comment in submission.comments:
-        if isinstance(top_level_comment, MoreComments):
-            continue
-#        print(top_level_comment.body)
+    # get 10 hot posts from the  subreddit
+    hot_posts = reddit.subreddit(game).hot()
+    #hot_posts = reddit.subreddit(game).hot(limit=10)
+    for post in hot_posts:
+        print(post.title)
         
-    submission.comments.replace_more()
-    for comment in submission.comments.list():
-#        print(comment.body)
-        comments_array.append([title,comment.body])
-#        print(comments_array)
-    comments_df=pd.DataFrame(comments_array,columns=['Post Title','Comments'])
-comments_df.to_csv('Comments.csv')
+    # get hottest posts from all subreddits
+    #hot_posts = reddit.subreddit('all').hot(limit=10)
+    hot_posts = reddit.subreddit('all').hot()
+    for post in hot_posts:
+        print(post.title)
+    
+    posts = []
+    game_subreditt = reddit.subreddit(game)
+    
+    
+    #for post in game_subreditt.hot(limit=50):
+    for post in game_subreditt.hot():
+        #print()
+        #score= upvotes
+        post.time=datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d %H:%M:%S')
+        post.created=(datetime.fromtimestamp(post.created).strftime('%Y-%m-%d %H:%M:%S'))    
+        posts.append([post.title, post.score, post.author,post.id, post.subreddit, post.url, post.num_comments, post.selftext,post.time])
+    posts = pd.DataFrame(posts,columns=['title', 'upvotes', 'author','id', 'subreddit', 'url', 'num_comments', 'text', 'creation_date_time'])
+    #print(posts)
+    posts.to_csv('Posts.csv')
+    # get  subreddit data
+    game_subreditt = reddit.subreddit(game)
+    
+    #print(game_subreditt.description)
+    
+    #%% COMMENTS
+    
+    comments_array=[]
+    for i in range(len(posts)):
+    #Get comments from a specific post
+        title=posts.loc[i,'title']
+    #    submission = reddit.submission(url=posts.loc[i,'url'])
+        submission = reddit.submission(id=posts.loc[i,'id'])
+        
+    #    print(i)
+        #submission = reddit.submission(url="https://www.reddit.com/r/MapPorn/comments/a3p0uq/an_image_of_gps_tracking_of_multiple_wolves_in/")
+        # or 
+        #submission = reddit.submission(id="a3p0uq")
+        
+        for top_level_comment in submission.comments:
+            if isinstance(top_level_comment, MoreComments):
+                continue
+    #        print(top_level_comment.body)
+            
+        submission.comments.replace_more()
+        for comment in submission.comments.list():
+    #        print(comment.body)
+            comments_array.append([title,comment.body])
+    #        print(comments_array)
+        comments_df=pd.DataFrame(comments_array,columns=['Post Title','Comments'])
+    comments_df.to_csv('Comments.csv')
+    
+    #%% DEVELOPERS/ MODERATORS
+    
+    mods=[]
+    for moderator in reddit.subreddit(game).moderator():
+        mods.append(moderator.name)
+    
+    moderators=[]
+    for i,j in enumerate(mods):
+        moderators.append([reddit.redditor(j).name,reddit.redditor(j).id,reddit.redditor(j).comment_karma,\
+              reddit.redditor(j).comments,reddit.redditor(j).created_utc,\
+              reddit.redditor(j).has_verified_email,reddit.redditor(j).is_mod])
+    moderators = pd.DataFrame(moderators,columns=['Name','ID','comment_karma','comments','Acc creation',\
+                                                  'has_verified_email','mods_any_subreddits'])
+    
+    moderators.to_csv('Moderators.csv')
+    
+    #%% KEYWORDS- BUGS GLITCHES..
+    negative_reviews=[]
+    for i in range(len(posts)):
+    #    negative_reviews.append(re.findall(r"([^.]*?bug[^.]*\.)",posts.loc[i,'text']))
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'bug' in sentence])
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'glitch' in sentence])
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'crash' in sentence])
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'problem' in sentence])
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'defect' in sentence])
+        negative_reviews.append([sentence + '.' for sentence in posts.loc[i,'text'].split('.') if 'flaw' in sentence])
 
-#%% DEVELOPERS/ MODERATORS
+    negative_reviews = list(filter(None, negative_reviews)) 
+    
+    dict = {'review': negative_reviews}          
+    df = pd.DataFrame(dict)
+    df.to_csv('negative_reviews_posts.csv')
+    
+    negative_reviews_comments=[]
+    for i in range(len(comments_df)):
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'bug' in sentence])
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'glitch' in sentence])
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'crash' in sentence])
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'problem' in sentence])
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'defect' in sentence])
+        negative_reviews_comments.append([sentence + '.' for sentence in comments_df.loc[i,'Comments'].split('.') if 'flaw' in sentence])
+    negative_reviews_comments = list(filter(None, negative_reviews_comments)) 
+    
+    dict2 = {'review': negative_reviews_comments}          
+    df2 = pd.DataFrame(dict2)
+    df2.to_csv('negative_reviews_comments.csv')
+    
+    return posts,comments_df,moderators,negative_reviews,negative_reviews_comments
 
-mods=[]
-for moderator in reddit.subreddit(game).moderator():
-    mods.append(moderator.name)
 
-moderators=[]
-for i,j in enumerate(mods):
-    moderators.append([reddit.redditor(j).name,reddit.redditor(j).id,reddit.redditor(j).comment_karma,\
-          reddit.redditor(j).comments,reddit.redditor(j).created_utc,\
-          reddit.redditor(j).has_verified_email,reddit.redditor(j).is_mod])
-moderators = pd.DataFrame(moderators,columns=['Name','ID','comment_karma','comments','Acc creation',\
-                                              'has_verified_email','mods_any_subreddits'])
-
-moderators.to_csv('Moderators.csv')
+posts,comments_df,moderators,negative_reviews,negative_reviews_comments=GameResults(game)
 
 #%% ROUGH WORK
 

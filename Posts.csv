@@ -1,428 +1,670 @@
 ,title,upvotes,author,id,subreddit,url,num_comments,text,creation_date_time
-0,Am I really the only one who still plays this game?,2,maxiquintillion,3n65pj,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/3n65pj/am_i_really_the_only_one_who_still_plays_this_game/,5,"I probably have a few hours on it, and haven't encountered any bugs",2015-10-01 17:29:51
-1,"So is this game and by extension, subreddit, dead?",1,BusinessPenguin,3gooya,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/3gooya/so_is_this_game_and_by_extension_subreddit_dead/,5,,2015-08-11 21:35:37
-2,Contender-class Command Assault Cruiser,0,,2xrays,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2xrays/contenderclass_command_assault_cruiser/,0,"My latest (as of this post,) creation.
-
-The, Contender-class Command Assault Cruiser (Contender-class; or ""CCAC"")
-
-http://steamcommunity.com/sharedfiles/filedetails/?id=401883565
-
-Dreadnought? Check.
-Tier 5 weapon mounts? Check.
-AMS? Check.
-Awesome Sleek Aggressive Appearance? Check.
-Full name becomes an Acronym? Check.
-
-I like acronyms, I duno why. But I like them in scifi.",2015-03-02 21:30:53
-3,Kinetic Void 1.0.7 Short Shipyard Tutorial/Fact-Guide,2,,2wxmig,KineticVoid,https://www.youtube.com/watch?v=OsF16aoxXNo,2,,2015-02-23 16:34:54
-4,"KV - Starfighter Buld (not a commentary, regular speed build process.)",1,,2wsg6n,KineticVoid,https://www.youtube.com/watch?v=hhM6ZS0qncM,0,,2015-02-22 11:56:32
-5,Patch 1.0.6. Release Notes Jan 16th,3,Kaybok,2tn2r2,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2tn2r2/patch_106_release_notes_jan_16th/,0,"Fixed 
-
-Fixed several issues with mission spawning. 
-
-Weapon Fire Rate active system now displays the correct value for bonus in its tooltip.
- 
-Fixed several issues that could lead to faction reputation reset.
-
-Changed 
-
-Improvements to handling of mission requirements. 
-
-All missions have been updated to reflect changes in how mission requirements are handled. 
-
-Double Down Mining Request mission has been combined into the regular Mission Request mission. 
-
-Weapon Fire Rate active system fire rate mod has been adjusted to 10%, 15%, 20%.
-
-Added 
-
-New mission API functionality.
-
-Known Issues 
-
-Salvaging nodes is not currently functioning as intended, and will be addressed in the next patch.",2015-01-25 11:36:25
-6,Release Content,4,bmorin,2n65s9,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2n65s9/release_content/,0,"Hey everyone, I just noticed that the devs actually released version 1.0 a couple days ago, but I haven't been able to play it yet.  
-
-Can anyone say what the current state of the game is?  How much content is there?  
-
-I'm a little worried since the devs' rep here just [said at the beginning of November](http://www.reddit.com/r/spacesimgames/comments/2kuhcp/kinetic_void_is_currently_66_off_on_steam_come/clowwgs) that they were still 4-5 months out from an official release and I'd hate for this to turn into another Spacebase DF-9 or Starforge.",2014-11-23 07:25:32
-7,Patch D15.2 is live on Steam!,6,bls_tehsid,2mmsew,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2mmsew/patch_d152_is_live_on_steam/,1," **Added**   
-
-*     Added a message log and message in the Available Subsystems Window for when the hull is out of space, out of power, out of both. Instead of just showing an empty window 
-*     Added finished Icons for Drone Systems. 
-*     Added addition Drone Launch Platform Subsystem 
-*     Added addition Sensor Subsystems 
-*     Added addition Controller Software 
-*     Added addition Jump Drive Subsystems 
-*     Added new mining/salvaging weapons. 
-*     Added new drones. 
-*     Added a ESC function to each window opened so that pressing [ ESC ] will close that window. If no windows are open then ESC Menu will be displayed. 
-*     [Shift] + [Right Click] will now remove a stack of items inside of the subsystem manager 
-*     User Created Ships ( Ship name - Classification - Original Design by) 
-*     Valkyre II - Fighter - Ɓanɀai Ɓorat 
-*     Valor - Fighter - N O M A D 
-*     Duskshade - Frigate - GTD-Carthage 
-*     Psyren - Frigate - Trauma 
-*     Toris - Frigate - im jacob 
-*     Amon'Tau Interdictor - Destroyer - Ɓanɀai Ɓorat 
-*     Conviction - Cruiser - A_Real_Shame 
-*     Core Jump Freighter - Battlecruiser - Sythe 
-*     Revolutionary - Battlecruiser - PuppyPowah 
-*     Relican Nomad MK II - Battleship - Goodwin 
-    
-**Changed**  
-
-*     Increased all weapons damage by 50% 
-*     Increased all forward thrust values by 40% 
-*     Reduced activation costs of all active systems by 60% 
-*     Hangar Bay Modules now count against the Controller Subsystem Active Systems. 
-*     Adjusted Drone Launch Platform and Launch Platform Modifier Rate values. 
-*     Adjusted the curve the sound sliders function on. 
-*     Changed Drone values to match new additions. 
-*     Warping to a new sector 
-*     Initial faction standings are now affected by faction traits as set in their config text file. Diplomats and War mongers hate each other. Everyone hates pirates. 
-*     Changed how armor resists are calculated to prevent stacking small plates for large resist values. Armor resist values are now an average of equipped plates with that resist value. Adding two plates with Kinetic resist of 25 will result in a total Kinetic resist of 25, a 10 and a 15 would result in 12.5. Durability bonus on armor plates is still summed as before. 
-*     In shipyard, hitting enter while focus is on the ship name field will trigger a save.
-    
-**Fixed**  
-
-*     General stability improvements. 
-*     Fixed an issue with the Drone Recalls 
-*     Fixed an instance when you could recall more drones than you had deployed. 
-*     Fixed the death message in Sector that was not sending the player back to the Shipyard when the button was clicked. 
-*     Fixed a bug with Linux/Mac that would cause ships not to spawn. 
-*     Fixed a bug with Linux not receiving their Starter Ships when creating a new Galaxy. 
-*     Fixed an issue where armor resistance percentages could go above 100% 
-*     Fixed a bug with the player’s force field material 
-*     Fixed a bug with how turrets were checking for targets within their vertical arc. This fix will most noticeable improve the behavior of 360 degree turrets. 
-*     Fixed a bug with radar. 
-*     Fixed several spelling errors. 
-*     Fixed an issue when loading in older ships that would throw errors regarding subsystem capacity.",2014-11-17 20:09:06
-8,"Kinetic Void is currently 66% off on steam! Come join us in space, or grab one for a friend!",7,bls_tehsid,2kuh9s,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2kuh9s/kinetic_void_is_currently_66_off_on_steam_come/,4,"http://store.steampowered.com/app/227160/
-
-$6.79USD
+0,/r/arma3 has merged with /r/arma,87,Phantomsmedia,24pbee,arma3,https://www.reddit.com/r/arma3/comments/24pbee/rarma3_has_merged_with_rarma/,5,"I've merged the two, after the staggering approval from this [post](http://www.reddit.com/r/arma3/comments/24mtaw/polldiscussion_merge_rarma3_with_rarma/). No more content may be submitted to /r/arma3 (It is locked to approved submitters, and there are none). Please submit all your content to /r/arma.
 
-Now is the time. We'd love to hear what you think if you do pick it up. Feel free to join us on the Steam Community forums and share your creations, or even if you need a little help. And please, do spread the word on twitter, reddit, or facebook!  
-  
-Have a fantastic day everybody!",2014-10-30 19:20:35
-9,Patch D15 is now live! Tutorials are in plus LOADS more.,3,bls_tehsid,2koa7p,KineticVoid,http://steamcommunity.com/app/227160/discussions/11/619569608763299926/,0,,2014-10-29 06:47:22
-10,D15.d Test build Patch available! Tutorials in!,3,bls_tehsid,2k9rp7,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2k9rp7/d15d_test_build_patch_available_tutorials_in/,0,"To get access to the test build please read the instructions here: 
-http://steamcommunity.com/app/227160/discussions/10/648817378234792008/ 
+*Hope you guys have a great time, the main subreddit is a great place!*
+ ",2014-05-04 09:49:36
+1,[Poll/Discussion] Merge /r/arma3 with /r/arma ?,371,Phantomsmedia,24mtaw,arma3,https://www.reddit.com/r/arma3/comments/24mtaw/polldiscussion_merge_rarma3_with_rarma/,74,"Hi! A year ago, a [post](http://www.reddit.com/r/arma3/comments/1aajr7/petition_to_disable_this_subreddit_and_combine_it/) was submitted to /r/arma3 asking for the exact same thing. It was ignored by the moderators then, even though it is the highest voted post on all of /r/arma3 *ever*.
 
-Due to the extent of changes this patch all ships will need to be remade. This should mostly be subsystem management using the new manager, however any weapons currently being used that are larger than tier 1 they will need to be re-positioned as they have grown in size considerably. Be sure to create a new galaxy as well. 
+ So, would you folks like to have /r/arma3 merge with /r/arma? 
 
-The workshop will be wiped on November 3rd. This is for many reasons but mainly because the major changes to subsystems have made all previously made designs non-functional . Please be sure to download any designs you like before the wipe happens. These downloaded ships will not be deleted from your install, but they will need to be updated in order to launch. 
+ My thoughts are: The community doesn't have an /r/arma1 or /r/arma2. There shouldn't be an ArmA specific community as the general ArmA community isn't large enough. The content should be centered in one subreddit, and that would be the main one. 
 
-It is our intention to push this build to the non test repository on Monday Oct 27th. If you find any issues please be sure to post in the Deb Build bug report forum on the community hub. 
+******
+***Rules to the poll***: If you agree with merging, leave an upvote and perhaps throw your opinion in the comments. If you disagree, leave a downvote, and again, your opinion in the comments.
+******
+This will be crossposted to /r/arma to gain the opinion of the entire ArmA community, rather than just /r/arma3.
 
-If you have any issues with controls please be sure to reset the controls to defaults, we did some updates to the controls manager. 
+And if the majority wishes to merge, what would be the best way to disable and redirect this subreddit?",2014-05-03 10:36:41
+2,Anyone know when the game will next go on sale?,12,DoggedSpy,24o8yb,arma3,https://www.reddit.com/r/arma3/comments/24o8yb/anyone_know_when_the_game_will_next_go_on_sale/,35,Don't really wanna pay $60 for the game I am a poor bastard. :/,2014-05-03 21:38:47
+3,does arma 3 suppport steering wheels?,7,,24nm1f,arma3,https://www.reddit.com/r/arma3/comments/24nm1f/does_arma_3_suppport_steering_wheels/,4,"I really love driving in arma 3 but i would love to use a steering wheel, i tried looking it up on google but didn't find anything. i remember hearing about them looking to it but maybe you guys will have an update for me. thanks!",2014-05-03 16:20:20
+4,New patch troubleshooting,5,hamisgood,24ngk2,arma3,https://www.reddit.com/r/arma3/comments/24ngk2/new_patch_troubleshooting/,5,"Just installed the latest patch that fixes several multiplayer issues. Unfortunately I'm now unable to join 95% of games from the server list.
 
-Bug thread: http://steamcommunity.com/app/227160/discussions/10/619569608519939818/ 
+I simply get the error message ""unable to join"" and sometime I get no message and am simply bumped back to the server list.
 
-The workshop will be wiped on November 3rd. This is for many reasons but mainly because the major changes to subsystems have made all previously made designs non-functional . Please be sure to download any designs you like before the wipe happens. These downloaded ships will not be deleted from your install, but they will need to be updated in order to launch. 
+Anyone else experiencing similar issues?",2014-05-03 15:10:47
+5,How do I add mods to Zeus?,5,Yosinuke,24mnzd,arma3,https://www.reddit.com/r/arma3/comments/24mnzd/how_do_i_add_mods_to_zeus/,16,I can't find anything online. I would appreciate every help. I don't know how to add the addon with the Zeus module. ,2014-05-03 09:30:21
+6,"Battle Royale, which is the best gun in the mod?",6,Fabr1ce,24mcfm,arma3,https://www.reddit.com/r/arma3/comments/24mcfm/battle_royale_which_is_the_best_gun_in_the_mod/,13,"Hi guys! Not sure if this is the right sub to post it on. But w/t/h.
 
-See the full patch notes here!
+Which is actually the best gun in the game? Not necessarily the best one statwise.
 
-http://steamcommunity.com/games/227160/announcements/detail/246896725754530843",2014-10-25 00:40:15
-11,How about some wallpapers? (1080p),4,bls_tehsid,2jz6jk,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2jz6jk/how_about_some_wallpapers_1080p/,2,"http://imgur.com/izglTIj,4FWSVwo#1",2014-10-22 01:48:28
-12,Tutorial Preview Video,2,bls_tehsid,2jaqyq,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2jaqyq/tutorial_preview_video/,6,"http://www.youtube.com/watch?v=PaAMsnRZQsU  
-  
-Still a work in progress, but this is what the tutorial will look like in the next update! Be sure to let us know what you think.",2014-10-15 00:17:11
-13,"Hi everybody, bls_tehsid here, ready to take command!",8,bls_tehsid,2j6hwk,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2j6hwk/hi_everybody_bls_tehsid_here_ready_to_take_command/,3,"Hi everybody. I know this subreddit has been quiet for a little while now and while we haven't forgotten you, work here at Badland Studio has been flat out getting KV up to date, so everything been a bit quiet.  
-   
-If you've been keeping track of us on Steam, you'll know that we've been working hard on getting the Development branch patches out so that we can get feedback on what's working, what's broken and what's fun before we release the patch to everybody. And we need you, and the Steam Community to help us spot the things our tired eyes may miss, its a big Universe after all!
+Since all weapons seems to do a decent amount of damage I want to find the most accurate weapon. Long distance shooting with the M4 feels crappy, the bullets goes all over the place.
 
-But for now, I'll be posting updates in here, taking questions about the game and generally doing my best to help you all out if you need it. Maybe even a few sneak peaks!  
-  
-As for you all, I'd love to see the ships you've made in game. Show them off, talk about them. What adventures have you had? I want to hear it all.  
+So far the TNG(?, not sure if its the right name) and the Kathiba seem to have a pretty good Acc.
 
- 
-Thanks guys, and good luck out there!",2014-10-13 19:45:48
-14,Planned for Development,3,bls_tehsid,2j6l7b,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2j6l7b/planned_for_development/,10,"Here is an consistently updated list of things to come. Both Visual and Gameplay related.  
+What's your opinion guys? Which is the best weapon?",2014-05-03 06:51:26
+7,Arma3 not starting up.,1,BearsAndUnicycles,24n5r3,arma3,https://www.reddit.com/r/arma3/comments/24n5r3/arma3_not_starting_up/,2,"So, I bought Arma 3 last night from steam, and when i tried to run it, it didn't work. the fullscreen mode would stay black, while the windowed mode would just (not respond).   after a bit of research, i put in the -Nobenchmark thing, and it worked if I started it windowed, I played a couple of hours, It was fun. The following day when i tried to run it, it wouldnt start up, even if i tried to take out the nobenchmark trick, reinstalled it already, nothing seams to be working.
 
-  
-Just keep in mind, the order isn't the order they items will come out with and nothing is set in stone. These are goals we're aiming for. But we're adamant we can get it all in, while not necessary for release but definitely in post.  
-  
-**GAMEPLAY CHANGES**  
-  
-https://docs.google.com/document/d/1urXkDdFozs3exOLQPVAMxvV8_STPR8m_u3jy8xhTkzw/edit?usp=sharing  
-   
-  
-**VISUAL CHANGES**  
+Any ideas?
 
-https://docs.google.com/document/d/11ZCdLmIrZ-Ykev8PqzZDj3NRPpXxiR1t5S5EVNqBeWY/edit?usp=sharing  
 
-  
-  
+And, i have a AMD fx 8150, with a MSI GTX 760, with four gb of RAM.",2014-05-03 13:02:16
+8,A buggy mess,0,Hazzman,24mzx2,arma3,https://www.reddit.com/r/arma3/comments/24mzx2/a_buggy_mess/,12,"Been a long time fan of Arma series but I just can't take it anymore. The campaign is a buggy mess. I had to use the 'endmission' command several times in order to simply progress through the guerrilla portion of the campaign, including the last mission to save the chopper pilot. What's worse is that when I tried to explore around in order to figure out what's broken the game has the audacity to kill me on the spot because I left the operation area and to tell me I am a shameful cheat every time I use the 'endmission' command in order to compensate for the poor work.
 
-I would love to hear your feedback, and what you're excited for.",2014-10-13 20:20:25
-15,How do you add a kinetic field generator subsystem?...I cant find it,3,Startrekwarsofdoom,29g1d5,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/29g1d5/how_do_you_add_a_kinetic_field_generator/,0,,2014-06-29 20:47:15
-16,Humble Bundle Questions,1,Urgin,25k1k1,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/25k1k1/humble_bundle_questions/,4,"As this game is now $10 on Humble Bundle for the next 24hr, I was wondering: what are your favorite elements of the game are thus far? Is it worth buying currently or is it worth buying for its outlook?
+When I started the new Win campaign, I have had to restart it 3 times so far. And twice now because of dialogue not happening when its supposed to leaving me frozen staring at the briefing guy, not allowing me to continue down to arm myself.
 
-Thanks!",2014-05-14 11:10:57
-17,Game is not user-friendly,8,Pointless_arguments,23rcg5,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/23rcg5/game_is_not_userfriendly/,5,"I purchased this game for about 8 dollars ages ago when it was on sale, couldn't get into it, and forgot about it. Saw it on the Steam front page again and decided to give it another go. I love space sims and I like the idea of building my own ship.
+I wonder how many times I am going to have to use the 'end mission' command in this new campaign?",2014-05-03 11:54:42
+9,"Just purchased Arma 3, need some help",8,iamnotanastronaut,24ljia,arma3,https://www.reddit.com/r/arma3/comments/24ljia/just_purchased_arma_3_need_some_help/,7,"I've just bought Arma 3 last night and was wanting to play some battle royale. I downloaded the game, the mod, and extracted it to the Arma 3 folder in my program files (x86). I enabled it through the configure option in game, but everytime I try to join a server I get an error with a list of files and the message ""These files are not signed by a key accepted by this server"". Did I mess up something when installing the game or mod? Any help would be appreciated. Also I hope this is the right place for this, I wasn't exactly sure where to post this. Thanks!",2014-05-02 20:50:06
+10,Driving our sedan to the Northwest when we suddenly collide with a pair of independents.,0,,24n0ij,arma3,http://www.twitch.tv/gamerenflow/c/4181925,0,,2014-05-03 12:01:38
+11,"I found this ""TrackIR like"" SW that uses a webcam. Settings are bit clumsy but it works. Does anybody use this?",15,Vlad1989,24kjy2,arma3,http://facetracknoir.sourceforge.net/home/default.htm,6,,2014-05-02 13:32:59
+12,Mohawk,0,DHDestruction,24mpgx,arma3,https://www.reddit.com/r/arma3/comments/24mpgx/mohawk/,4,"Hi ich bin neu in Arma3 und übe gerade ein bisschen Hli fliegen :)
+Könnte mir jemand vll sagen wie man die Hinterklappe beim Mohawk öffnet.
+LG Dani",2014-05-03 09:49:23
+13,Need Lawyer in Altis Life? Call me.,10,CashmereCroc,24juwn,arma3,https://www.youtube.com/watch?v=xBX2IRVKbLs,6,,2014-05-02 09:18:05
+14,Dedicated Server Hardware review.,4,,24kjef,arma3,https://www.reddit.com/r/arma3/comments/24kjef/dedicated_server_hardware_review/,3,":This is for Arma 3 Stable Branch:
 
-However this has got to be the least user-friendly game I've ever played, and I played EVE in a corp for about 2 years. I just couldn't figure out how to do the simplest things and every menu seems obfuscated and unintuitive. Eventually I lost interest and I haven't gone back to it since.
+====---
+System Requirements (minimum):
+====---
+• OS: Windows Vista SP2 / Windows 7 SP1
+• CPU: Intel Dual-Core 2.4 GHz / AMD Dual-Core Athlon 2.5 GHz
+• DirectX®: 9
+• RAM: 2 GB
+• HDD: 5 GB free space
+• Other:
 
-If the devs want more customers they're going to have to sort out the UI and make the game a lot easier to use. All I want to do is build a ship and maybe go kill some pirates, I don't want to have to need a university course to learn all the commands and menus. 
+====---
+System Requirements (recommended):
+====---
+• OS: Windows 7 / 8 64-bit
+• CPU: Intel Core i5-2300 / AMD Phenom II X4 940
+• DirectX®: 9
+• RAM: 4 GB
+• HDD: 10 GB free space, SSD / Hybrid HDD / SSHD storage
+• Other:
+--------
+====---
 
-This could be an insanely fun game but please please please include some kind of tutorial, and not one that dumps a ton of information on you in very little time. Maybe some kind of trickle learning curve that starts off simple as hell and gradually gets more complicated.",2014-04-23 04:18:38
-18,How does one hire crew?,5,omegajourney,2149s8,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/2149s8/how_does_one_hire_crew/,1,"The ship builder shows me needing crew, and while I've been able to fly without them, I think my ship may be greatly suffering for not having staff.",2014-03-22 18:43:42
-19,Kinetic Void has come a long way. Here's a Ship I just made,9,Kaybok,20zuz3,KineticVoid,http://imgur.com/a/jpvuC,0,,2014-03-21 07:08:01
-20,"Kinetic Void is 50% off this week (March 10-16, 2014)",6,Kaypix,202e60,KineticVoid,http://store.steampowered.com/app/227160,0,,2014-03-10 11:22:37
-21,How do you start career mode?,6,,1wbyas,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1wbyas/how_do_you_start_career_mode/,0,"How do you afford anything when starting out in career mode? 10,000 credits doesn't go far at all when even the most basic hull section costs 2,200 and you need at least two of those, plus a generator, plenty of crew compartments, guns, whatever it is that provides medical or whatever, and a shield generator and a jump drive... How does that work?",2014-01-27 17:14:57
-22,Couple Questions,2,asummers2,1vd47c,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1vd47c/couple_questions/,2,"Hey guys, new to the gym (literally like 10 minutes ago) and while I've figured out most of the UI and am able to get a functioning ship into space, I'm getting weird blocks of color and smears of what was already on the screen once I try to launch. It looks a lot like what happens when you won solitaire all those years ago. Further, I constantly have a Planetary Proximity Warning going.
 
-Secondly, what on Earth (or whatever planet I'm near) am I supposed to be doing? ",2014-01-16 06:55:30
-23,"Kinetic Void Patch 0.07 Development ""Diary""",7,,1sqqso,KineticVoid,http://www.youtube.com/watch?v=KWxYq2pY5kQ,0,,2013-12-12 12:39:12
-24,"Kinetic Void gameplay patch 0.06 with explosions, combat, microwarp and flight yippee!",9,Kaypix,1s6w9u,KineticVoid,https://www.youtube.com/watch?v=euftwCjjL2o,3,,2013-12-05 13:46:23
-25,Kinetic Void Video Introduction to Patch 0.06 Part 1 -,4,Kaypix,1rw1mc,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1rw1mc/kinetic_void_video_introduction_to_patch_006_part/,0,"I uploaded my first text-based tutorial on YouTube for Kinetic Void https://www.youtube.com/watch?v=UYMN5A8C7lg
-I'd love to get some feedback on what our players are wanting to see.  This is obviously just how to build a ship, I'll be going over other aspects of the game as we continue to develop them.",2013-12-01 20:38:25
-26,Here's what happens when I played the game for the first time,6,tehboris,1nuby5,KineticVoid,http://www.youtube.com/watch?v=KjujrW-NqK0,0,,2013-10-06 07:13:21
-27,New SubReddit- Kinetic Void Ships,1,Kaybok,1mmt91,KineticVoid,http://www.reddit.com/r/KineticVoidShips/,2,,2013-09-18 02:57:04
-28,Something I found useful on the steam discussions,5,soetual,1jl400,KineticVoid,https://dl.dropboxusercontent.com/u/59091547/KV_KeyRef.pdf,0,,2013-08-02 13:19:38
-29,My First Dreadnought Class Ship. Came out like a carrier. what ya think?,12,Kaybok,1j5mz3,KineticVoid,http://imgur.com/a/5Fsq4#0,6,,2013-07-27 04:45:59
-30,Some useful things I've figured out,5,Kaybok,1j0eiq,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1j0eiq/some_useful_things_ive_figured_out/,1,"To remove hard point red dot press Tab.
-I found if you us engines on the main engines then on other smaller engines or same size but different types use engine boosters you end up with a pretty good increase in speed.",2013-07-24 22:41:44
-31,First impression and feedback.,3,Nevenrial,1icv7d,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1icv7d/first_impression_and_feedback/,5,"I picked up the game on Steam during the sale and I wanted to leave some feedback. I’ve pretty much just created a ship and flew around for a couple of minutes. I honestly believe this game has a lot of potential. So wanted to discuss shipbuilding. 
+Ive really been doing the math on the cost benefit analysis of buying VS leasing a dedicated server. 60$us for a 10 slot server is getting a bit heavy in the wallet as the months roll onto years.. 
+Where I'm lost is whether or not an older dual processor, 3ghz Xeon based quad core server or the posted dedicated desktop style system requirements would prove to be the most advantageous and efficient.
 
-Ship building:
-The number of components that could be used to create a ship. They are interesting and some are pretty unique. Creating a ship, however was overly time consuming and somewhat clunky. Navigating the camera seemed to take a while and even after an hour, the interface, i.e. rotating and placing pieces, still felt awkward. I like taking my time and making each ship unique, but I felt a little discouraged when trying to create something a little more complicated. 
+I won't admit to understanding the nuances that differentiate servers from desktops.
 
-I have no idea if there is any intent on putting a cap on the number of components one can use initially, but I personally was hoping for something like that. I like the feeling of growth and initially, having access to all those parts just seems to... easy. Again, I have no idea if this is just for testing or a final design decision. 
+BI clearly calls for the use of end user hardware, even the OS. Not at all the sort of sys-reqs I would have expected in support of a dedicated server binary.
 
-One additional note, I think maybe you should add an arrow or something to tell people which way the front of the ship should face. I designed an entire ship only to find that “engines must be facing the rear,” which happened to be the side of my ship, not the back. Later I realized that you need to build it facing the launch portal, but it was apparent at first and frankly, I was too focused on the white cube in the center to notice anything in the background. 
+A server is slower with regard to IOPS/FLOPS, but with twice the cores we can certainly get more done across the board I would think. Comms/ArmaSync repository/website/ftp/ the works. All without interfering with each other. But i could be terribly wrong and don't want to commit any cash till i get a better bearing on all this.
+Would 15k SCSI drives in a Raid0 be somewhat comparable to SSD's? I used to use 15k raptor drives for real time, zero-latency audio recording a decade ago.
+ArmA dedi-server cant be more demanding than that, can it?
 
-I’m going to play some more today so I can continue spouting nonsense about my opinion. I have a real itching for a space sim and nobody seems to be scratching, so I want this project to succeed. 
+I'm genuinely not sure if a modern bare-bones desktop or an older windows 2003 server based machine with dual quad 3ghz Xeons would be best. 
+The price points are about equal, leaning towards the higher end of the spectrum with modern PC's of course.
 
-Thanks.
-",2013-07-15 11:52:54
-32,"Not sure where else to put this, but here is a bug report",3,xzosimusx,1ia23m,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1ia23m/not_sure_where_else_to_put_this_but_here_is_a_bug/,0,"Running the latest steam version (build 0.018c) I have come across some interesting AI behavior. Granted I just started playing so for all I know it might be a pre-existing bug... but whatever. 
+Any knowledge on the subject or ideas?
+Would such a machine be able to run an Arma dedicated server & HC?
+The bandwidth I have access to.",2014-05-02 13:27:41
+15,"New to Arma 3. What are some ESSENTIAL settings to change to improve performance, mods to download et cetera.",28,JohnGultNBA,24ilfe,arma3,https://www.reddit.com/r/arma3/comments/24ilfe/new_to_arma_3_what_are_some_essential_settings_to/,35,"Sorry if this has been asked before (probably many times) but from a quick search of the reddit all I found was ""My game is running poorly, I have these specs"". Which didn't provide any solutions =/.",2014-05-01 20:59:10
+16,ARMA 3 Reddiquette,3,KinGriffin,24jm7s,arma3,https://www.reddit.com/r/arma3/comments/24jm7s/arma_3_reddiquette/,8,"Hey guys,
 
-First encounter: Trying to shoot capital sized ships, they have insane agility and change directions at very high speeds seemingly randomly. I was able to get a short clip of this [here](http://youtu.be/UaYxGOZZXBA). 
+I am currently part of an ARMA 3 Australia-based tactical realism unit, and I wanted to ask before I started doing it; is it okay to advertise / promote my outfit here? I know some reddits frown on people advertising their units / clans / outfits, and I wanted to do the right thing and check that it's okay to do that first before I go ahead and do it.
 
-Second encounter: Similar situation, but this time with a smaller ship and the speed is much much higher. [Video here](http://youtu.be/EF_1qfM8sxk).
+We aren't particularly some noob half-assed clan, but we've taken a blow in numbers recently (mutiny from one of our platoons a few months back caused our numbers to half), so we're trying to recuperate from that with good team players.
 
-Hopefully this information will reach some Devs so they can add it to the 'to-do' list. 
+",2014-05-02 07:44:35
+17,Arma 3 and laptops,1,reflectivewanderer,24kj9f,arma3,https://www.reddit.com/r/arma3/comments/24kj9f/arma_3_and_laptops/,11,So I've just purchased a sager gaming laptop with a 3.4ghz quad core and 2 nvidia 870m's 16 gigs of ram and a 15 gig SSD. I keep hearing about arma 3 running poorly on laptops. Will I really have problems with my build?,2014-05-02 13:26:06
+18,Help finding game mode,1,k123nino,24js3i,arma3,https://www.reddit.com/r/arma3/comments/24js3i/help_finding_game_mode/,1,"I saw a videos a few weeks ago, which I can't find, that had two teams against each other with zones they have to take similar to BF conquest. Each team had a Zeus that would get points to buy units/armor dependent on how well their team was progressing. can anyone tell what this version is called? tell me how to filter for it?",2014-05-02 08:48:15
+19,Arma 3 Beginner Guide,8,THWrath,24iyzq,arma3,https://www.reddit.com/r/arma3/comments/24iyzq/arma_3_beginner_guide/,1,"Arma 3 Beginner's Guide
 
-Great game so far, cant wait to see how it shapes up in the future!",2013-07-14 08:29:36
-33,I have a question about the interactions,2,,1hjs3z,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1hjs3z/i_have_a_question_about_the_interactions/,1,"So how do you interact with other factions and such? I love the part of the game I understand, but I would like some help",2013-07-02 22:03:42
-34,Patch 0.017 June 21,3,Harabeck,1gtxtk,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1gtxtk/patch_0017_june_21/,1,"0.017 Deployed
+Description:  This is a collection of basic information for newcomers to Arma 3.  It 
+contains some tips and links to other people's guides.  All content is credited to its 
+author and contains links to the source material.  For a more complete guide to Arma 3, 
+including advanced information and strategy/tactics, I recommend a full read of Dslyecxi's 
+TTP3 guide linked below.
 
-* Performance should be a bit better at the shipyard for low-performance machines. We’ll be working on improving it and giving you different video settings soon.
+Topics marked with an * indicate the most critical information which should be reviewed on 
+first read.
 
-* Fixed issues with ship colors not being applied properly.
+Tips:
 
-* Improved the camera lens effect.
+	Under the Play option in Arma 3 is the showcases tab.  These showcases are tutorial
+	scenarios which you can use to learn how to play Arma 3.
 
-* Small tweaks on the shipyard lighting settings.
+	Familiarize your self with the Key-binds.  Arma 3 has an unusually extensive and
+	complicated control scheme, and an examination of the default key-binds is
+	recommended as some may not be to your liking.
 
-* AI ships will now fight each other if they encounter a ship from a hostile faction.
+	The scroll wheel is the basic method of interaction with anything in Arma 3, including
+	doors, items, vehicles, and other people.
 
-* AI ships can now spawn in squadrons.
+Warning: Most of these guides were based on the Alpha for Arma 3, so it is possible that 	
+some information is outdated.
 
-* Fixed a typo in the Shipyard that caused ships classified as Light Fighters to be shown as Fighters.",2013-06-21 18:07:37
-35,Changing keybinds,2,sadistmushroom,1gmsd6,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1gmsd6/changing_keybinds/,2,"Just got the game, but the controls section of the options menu doesn't seem to be working, and my w key is broken, is there some other way I can re map it? ",2013-06-18 20:38:57
-36,"Patch 0.015, June 6th",7,Harabeck,1fso66,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1fso66/patch_0015_june_6th/,12,"0.015 Deployed
 
-* Added textured for Station_01, Storage_01, the entire docking_01 group, the entire docking_03 group, and docking_02
+Dslyecxi's Arma 3 Guides <https://www.youtube.com/user/Dslyecxi/search?query=Arma+3+Guides>
 
-* Fixed mesh for Housing01
+	Intro to Tactics, Techniques, & Procedures for Arma 3 (TTP3)
+	Text: http://ttp3.dslyecxi.com/
 
-* Change mesh for T5_bridge_01
+	Important Info About Key-binds
+	Text: http://dslyecxi.com/arma-3/arma3-alpha-controls/
 
-* Adjusted a bunch of UVs for station modules
+      * Movement Basics (Stances, moving fast vs. slow, etc.)
+	https://www.youtube.com/watch?v=G8vrbzNYEwM
 
-* The weapon manager is now available in the shipyard. It can be toggled with the G key or by a new button under the left panel. Changes made there will be saved to the ship.
+	Basic Infantry Tips (engaging, moving through terrain; intended for those who
+	are not experienced with FPS in non-city environments)
+	https://www.youtube.com/watch?v=k3DyRtMkRNI
 
-* Turrets now default to the manual control and group 1 of the weapon groups.
+	Terminal Ballistics (penetration and ricochet)
+	https://www.youtube.com/watch?v=cix07R1vlhI
 
-* The manual fire reticule will now be cleared if you return the shipyard while manual control is activated. Opening any of the menus in flight will deactivate manual fire mode.",2013-06-06 08:46:57
-37,"Patch 0.014, March 31",4,Harabeck,1ffto7,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1ffto7/patch_0014_march_31/,0,"0.014
 
-* Applied new textures to some station parts.
+Team Epiphany Guides:
+	
+      * Inventory Tutorial
+	https://www.youtube.com/watch?v=4dk_5QMzC-k
 
-* Textures for BioDome_01, docking_02, GasPodS_01, Housing_01-Housing_05, Ring_01, Ring_02, and Shipyard_01
 
-* Manual turret/Weapon control. After pressing X to toggle manual fire control (an aiming reticle should replace the default mouse), any weapons set to the Manual fire group in the weapon manager will fire if left mouse is clicked. If the weapon is a turret, it will track with mouse movements. Press X again to disable (freeing you up to just target ships or whatever). If a turret is being manually controlled and the player is aiming outside of the turret’s arc, the turret will revert to its group target if available.
+Luetin09 Guides:
 
-* The graphics options should now only show resolutions supported by the user’s monitor.
+	Sniper Operation
+	https://www.youtube.com/watch?v=d1_HSWqIViU
 
-* Added RSS feed display to splash screen, fed from KV community announcements.
+	
+Additional Important Information
 
-* Turrets should now be much less likely to shoot the ship they are mounted on.
+      * Medic (Sourced from Ryannihilate <https://www.youtube.com/watch?v=GXcd7slmvN8>
+		& Dslyecxi's TTP3 Guide linked above):
 
-* Optimized weapons fire for performance.
+		Wounds:
+		-Damage is localized, meaning arm wounds will affect your aim, and leg
+		 wounds will affect your movement.
 
-* Corrected size of projectiles for each tier of weapon. (visual update coming soon)
+		First Aid Kits:
+		-Single Use.  Heals you up to 75.  May treat lighter wounds and remove
+		 some detrimental status effects like movement impairment.
 
-* Fixed a collision layer issue causing projectiles to collide when they shouldn’t
+		Medic Kit:
+		-Multi-use.  Heals you up to 100.  Treats heavier wounds and removes more
+		 detrimental status effects.
 
-Note: Enabling weapon group saving and management from within the shipyard is next on my to-do list.",2013-05-31 17:51:21
-38,"New Terror in the universe, my first ship.",8,soetual,1esjpt,KineticVoid,http://imgur.com/a/77ggh,3,,2013-05-21 14:59:56
-39,0.013 May 17th patch notes,6,Harabeck,1ejtvz,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1ejtvz/0013_may_17th_patch_notes/,0,"0.013 
+		Wounded and Downed Teammates:
+		-It is possible to use First Aid and Medic Kits on teammates.  Depending on
+		 the Mod or gamemode you are playing, you may also be able to revive downed 
+		 teammates, though additional medical supplies may be required.
 
-* Added textures for size 3 bridges 3, 4, 5 and 6
+	Protective Clothing (Sourced from Dslyecxi's TTP3 Guide linked above)
+		
+		Headgear:
+		-Helmets do provide additional protection vs. other hat types, but are
+		 also heavier.
 
-* Added textures for size 4 bridges 1, 2, 3 and 4
+		Vests:
+		-Some vests have action armor plates which do provide additional protection
+		 vs bandoliers and non-plate vests, though they are heavier.
 
-* Added textures for size 5 bridge 2
+		Note: Weight affects your movement-speed and stamina",2014-05-02 00:48:39
+20,"Scripting Help, please.",1,ph1294,24jv3a,arma3,https://www.reddit.com/r/arma3/comments/24jv3a/scripting_help_please/,1,"I would like to mount an ArmA 3 Nuke script to a support in Zeus. This nuke, in specific: 
 
-* Updated C&C Icons to reflect new textures
+http://forums.bistudio.com/showthread.php?170602-ArmA-III-Nuke-Script-Port-from-ArmA-II
 
-* Fixed a bug where ships using the simplified collision mode would only hit themselves
+I would then like to change the sound file for something better, and package it as a mod.
 
-* Added an error message in the shipyard that displays when an engine is in the wrong rotation
+Could someone help point me in the right direction for learning resources to do this myself? I'd be even happier if someone could do this for me, but I think I could do it myself as well. I just don't know where to start in terms of learning how to do it. 
 
-* Implemented some AI improvements. Players should notice enemy ships are better at evading. Further, groundwork has been laid for some very interesting AI changes in the coming weeks.
+Thanks!",2014-05-02 09:20:01
+21,Altis Life - Mafia Episode 2,0,snoopston,24jcae,arma3,https://www.youtube.com/watch?v=kBSH-H9c1tE,0,,2014-05-02 05:35:57
+22,Arma 3 Roadmap 2014/15,33,HighLighterGuy,24g8zs,arma3,http://www.bistudio.com/english/company/developers-blog/460-arma-3-roadmap-201415,22,,2014-05-01 05:41:51
+23,"Battle Royale, Get to the Blue Circle!",2,Goinsey,24hv2w,arma3,http://www.youtube.com/watch?v=FkEV90mpPOY&list=UU7oyUoKIsuTOqPbs0WJmVRA&feature=share,1,,2014-05-01 15:55:05
+24,Scripting Question?..simple,1,,24hvym,arma3,https://www.reddit.com/r/arma3/comments/24hvym/scripting_questionsimple/,1,"original command
 
-* All subsystem icons have been updated with new visuals.
+GroupOne_X = Creategroup EAST; ""O_Soldier_F"" createUnit [getMarkerPos ""spawn1"",GroupOne_X,""this allowFleeing 0"",random 1, ""Private""]; ""O_Soldier_F"" createUnit [getMarkerPos ""spawn2"",GroupOne_X,""this allowFleeing 0"",random 1, ""Private""];
 
-* The beginnings of Steam Workshop support has been implemented (Not functioning yet)
+how do i add
 
-* Fixed a bug that prevented some NPC engine trails from showing up.",2013-05-17 17:11:42
-40,Let's Play Kinetic Void! - 02 - A Backfired Update,5,asmosdeus,1eeunw,KineticVoid,https://www.youtube.com/watch?v=yVVpJ496gAo,0,,2013-05-15 15:18:42
-41,Patch notes: Build 0.012 May 3rd,6,Harabeck,1dnnhd,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1dnnhd/patch_notes_build_0012_may_3rd/,0,"0.012
+ ""GroupOne_X move position player""
 
-* Removed two resolutions that were smaller than 1280x720 as they caused problems
+tried putting on the end just getting missing errors",2014-05-01 16:05:07
+25,Creating respawns with Zeus?,2,Strienghardt,24h8ie,arma3,https://www.reddit.com/r/arma3/comments/24h8ie/creating_respawns_with_zeus/,2,"I've been messing around with Zeus lately and i've spotted the respawn tab. I tried making spawnpoints by simply placing it on the ground and adding respawn tickets. This didn't work, when i died i had no option to respawn. How do i set up respawns properly?",2014-05-01 12:06:22
+26,Arma 3 Terminal Ballistics - I didn't even know Arma 3 simulated bullets this well! This is just awesome job by Bohemia! And the youtube guy for showing us as well!,3,,24g2rn,arma3,https://www.youtube.com/watch?v=cix07R1vlhI,5,,2014-05-01 03:48:42
+27,Arma 3 Patrol Ops Realism Stream! - Titan Tactical,1,Haymaker19,24gqwl,arma3,http://www.twitch.tv/titantacticalofficial,0,,2014-05-01 09:09:58
+28,Wallpaper: One Away,15,Ori0n87,24exsc,arma3,http://imgur.com/9GTkHlz,1,,2014-04-30 17:18:15
+29,pawnee minigun fps lagg?,3,shadow0240,24fwma,arma3,https://www.reddit.com/r/arma3/comments/24fwma/pawnee_minigun_fps_lagg/,4,"since the update am i the only one that gets major lagg when shot at by a pawnee miniguns?  playing king ot the hill  and im flying an orca. pawnee shoots at me and my fps goes to 1. which makes me look like i freeze mid air and causes me to get slaughtered, because he just flies up to me and blasts me. when i would have flown away otherwise. i may try to get some footage of it if i can get it to happen when im recording.
+",2014-05-01 01:17:36
+30,USEC is hosting three public sessions! First mission 2nd of May - UPRISING,3,,24fs51,arma3,https://www.reddit.com/r/arma3/comments/24fs51/usec_is_hosting_three_public_sessions_first/,2,"For the first time USEC is inviting public players to join us for a series of 3 missions linked by a story over 3 weeks, **with no mods required.** Simply jump on the server and on Teamspeak to participate. The first mission will be occurring on **Friday the 2nd of May at 0900 Zulu** on our public server named USEC Public Server AU. Here is a link to Zulu (UTC/GMT) time, to allow conversions to your local timezone:   
 
-* Added texture for size 3 bridges 1 and 2
 
-* Updated icons for size 3 bridges 1 and 2
+http://www.worldtimeserver.com/convert_time_in_UTC.aspx?y=2014&mo=5&d=2&h=9&mn=0  
 
-* Fixed SpikeFin01 material assignment, it should now receive color channel information.
+These missions will be similar to the ones USEC conduct weekly. As such we expect those who join to play maturely and listen to the guidance of the NCO’s in charge of the mission. This allows you and everyone else involved to get first hand experience of how we operate, and also have a good time!  
 
-* Placed a non-warp speed limit on ships to save relativity from further abuse.
+**Uprising:** First mission objectives - 2nd May 0900 Zulu.  
 
-* Color profiles now save with the .col extension instead of the .bin extension. When the Shipyard tries to load color profiles, if there are .bin files in SaveFiles/ColorProfiles, the game will rename them to the .col extension. If you have color profiles saved outside of this folder, manually changing the extension to .col will make them compatible with the game.
+1. A bomb threat has been reported on the island of Altis within four cities. Eliminate the insurgent cells and destroy the bombs before detonation.  
 
-* Factions can now be set to spawn specific ships. If a folder is created with the same name as the txt plus “ Ships” and saved ships are placed within it, AI belonging to that faction will use one of those ships. For instance, if a faction is described in Empire.txt, ship saves can be placed in a directory called Empire Ships in SaveFiles/Factions. If the folder does not exist or is empty, ships will be pulled randomly from SaveFiles/ as they are now. Empty directories with the appropriate name (based on the txt files in SaveFiles/Factions) are created automatically if missing upon generating a new galaxy, or if an AI of that faction spawns during gameplay.
+2. Find the insurgent officer responsible. The intelligence he has reveals a larger threat…  
 
-* Faction specific color profiles have been implemented. If a saved color profile is placed within the faction ship directories mentioned above, then that color profile will override the colors the ship was saved with. This applies even if no saved ships are present in the faction specific directory and the ship was pulled from the top directory.
+**From the Ashes:** Second mission objectives - 9th May 0900 Zulu.  
 
-* Fixed an issue that prevented zooming in the shipyard camera in some cases
+*1. Coming Soon*  
 
-* Will no longer start in fullscreen mode, if you set it to full screen after the initial launch it will remember. This is to resolve some issues people are having with incompatible resolutions.
+**Downfall**: Final mission objectives - 16th May 0900 Zulu.  
 
-* A problem with collision layers resulted in the player being effectively invincible to enemy fire. This has been fixed, fly with care.
+*1. Coming Soon*  
 
-* Fixed a bug where an engine would be destroyed but the ship would still act as though it had the thrust from that engine.",2013-05-03 18:56:23
-42,Other people play this?,3,DecisivePickle,1db5l5,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1db5l5/other_people_play_this/,3,Glad to see other people play this. Is the mod one of the game designers?,2013-04-28 18:51:24
-43,Left my computer running all night to see how fast I could make a ship go. Very Fast.,8,asmosdeus,1d9k3h,KineticVoid,http://i.imgur.com/Otp1UG5.png,6,,2013-04-28 02:36:29
-44,I broke relativity. Do I win the game?,8,DirgeHumani,1d8mz9,KineticVoid,http://i.imgur.com/I8y8k4E.jpg,2,,2013-04-27 15:25:43
-45,Firing Optimisation Idea,2,asmosdeus,1d8uls,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1d8uls/firing_optimisation_idea/,2,"My idea is simple; Take the resolution the game is running at, then use that to determine when the shell decal stops being rendered.
+[More info on who we are](http://www.reddit.com/r/FindAUnit/comments/24cuyx/get_amongst_it_participate_with_usec_for_a_series/)
 
-An alternate method could be to heavily reduce the rate of fire of cannons, but bump up the shell velocity and damage to make them feel more like cannons and may'be make their shell decal larger.",2013-04-27 17:25:59
-46,Kinetic Void Update; 0.011,3,asmosdeus,1d6rsn,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1d6rsn/kinetic_void_update_0011/,6,"Just got a 2.9mb update for Kinetic Void.
 
-EDIT:
+https://www.youtube.com/watch?v=5LgTEApzWgA  
 
-As Harabeck posted below:
+Check out more videos from some of our members here:  
 
->0.011
 
-* Implemented collider optimizations which should improve performance when many large ships are in scene.
+https://www.youtube.com/user/USECForceOfficial/videos  
 
-* Implemented player collider optimization which may improve performance during warp.
 
-* MAC - slight change to file structure so that factions will load, negating issue with generating solar systems",2013-04-26 16:56:58
-47,"Made a video about the game, more to come. If anybodies interested :D",7,asmosdeus,1d5yk4,KineticVoid,http://www.youtube.com/watch?v=MgV_bF8oiLk,0,,2013-04-26 10:23:47
-48,Don't suppose we can get the option to stop a ship from being spawned? It get's pretty laggy when too of these are on screen.,4,asmosdeus,1d67yq,KineticVoid,http://i.imgur.com/04k4VWS.jpg,0,,2013-04-26 12:24:34
-49,"Patch notes for version 0.010, April 24",5,Harabeck,1d1qcr,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1d1qcr/patch_notes_for_version_0010_april_24/,2,"0.010
+Feel free to jump on our Teamspeak and have a chat or ask some questions about joining!  
 
-* Added textures for size 2 cockpits 1, 4, 5, 6. 7 and 8
+**Contact us:**  
 
-* Updated Module icons for size 2 cockpits 2, 4, 5, 6, 7 and 8
+*Website:* www.usecforce.com/  
+*Facebook:* https://www.facebook.com/UsecForce  
+*Teamspeak:* usecforce.com  
+*Email:* info@usecforce.com    
+*Public server details:* USEC Public Server AU  ",2014-04-30 23:39:27
+31,Battle Royale stream going on right now if anyone wants to join,0,jasoncrab,24ggb5,arma3,http://www.twitch.tv/kingblueslims,0,,2014-05-01 07:19:11
+32,Server / Zeus help.,1,Dredboss,24fvex,arma3,https://www.reddit.com/r/arma3/comments/24fvex/server_zeus_help/,3,"Hey I've been hosting zeus games for a few days now and I've just recently started having problems with the game. When I'm zeus all players show up as player 1, 2, 3 etc, and occasionally I simply do not see players in the asset list. When I check my map I see everyone's names, unless they are not in the asset list, then I have to actually look around the map or find them by gunfire and ai reactions. Also, some players randomly spawn in the water at 000000 and haven't been able to play since despite re-verifying files. We are all using vers 1.16.
 
-* Added color profile saving functionality to the Shipyard.
+edit: Some guys spawn sometimes in the water and can reconnect and spawn correct while one guy always spawns in the water and basically can't play with us anymore.",2014-05-01 00:48:19
+33,Arma 3: A Better life Mod ”Lost Isles”,10,s3rgant,24dxx9,arma3,https://www.reddit.com/r/arma3/comments/24dxx9/arma_3_a_better_life_mod_lost_isles/,4,"Arma 3: A Better life Mod
+”Lost Isles”
+Created by Killernetworkgaming.co.uk
 
-*  Hide UI function now disabled if the ship name input has focus
+http://files.enjin.com.s3.amazonaws.com/524612/modules/forum/attachments/killernetworkgaming_zpsa3c29e35_1394990110.jpg
+https://imgur.com/DjGS7Qn
+http://i.imgur.com/68s1CnT.png
+http://i.imgur.com/En8Ls5c.png
 
-* Fixed missing icon for Hull 13v1
+Description:
+The Arma 3 “A Better Life Mod” introduces serious role players to our new map “Lost Isles”. Situated off the very far west coast of Altis, Lost Isles is a group of tropical coastal regions consisting of in total seven Islands. (Moggadishu, Yuukatan, Armanio, Diverski, Morfunnia, Monuriki, Hotan).
+The main island of Moggadishu, which is somewhat the size of “Stratis”, contains the main city of “no name yet” and a smaller city. Also has the main airport.
+Yuukatan focuses on the less legal activities offering more of the higher profitable rewards.
+Monuriki is the industrial island dedicated to shipping and exporting. Processing (legal / illegal items)
 
-* Removing the first block you placed in the Shipyard will not longer remove the entire ship along with it. Instead, the neighbor of that block with the most children under it will be set as the new child of the root block.
 
-* Added a button/indicator for part placement mode in the Shipyard
+**Please give us some love at make Arma Not War
+http://makearmanotwar.com/entry/DO606DSLme#.U2E-OvmSzF_**
 
-* Title screen: resolution and basic quality options now implemented.
 
-* If the resolution option has not been set before, the game defaults to the desktop resolution.
+Island Features:
 
-* Docking and planet collision UI elements have been fixed in Sector.
+•	2 Airports
+•	Bridges linking most islands
+•	2 civilian islands
+•	Police island for training and deployment
+•	One industrial island dedicated to shipping and exporting. Processing (legal / illegal items) etc etc
+•	Much much more
 
-* Fixed a bug where the AI would always use their kinetic field when the player did, making it nearly impossible to catch them.
+Mod Features
 
-* Shipyard camera zoom and pan rates will now scale according to ship size.
+•	Dynamic economy system
+•	Crafting supply and demand system
+•	Revamped survival mechanics
+•	Realistic medical system (Broken legs, sickness, unconsciousness etc etc)
+•	Real weather simulation
+•	Food economy
+•	Fishing system
+•	Drugs economy
+•	Mining economy
+•	Business economy
+•	DMV test (points on license) Actual driving test
+•	Vehicle modifying
+•	In game cell phones
+•	Custom clothing
+•	Forum integration
+•	Gamblers corner (poker, blackjack, texas holdem etc etc)
+•	Player Housing system
+•	Player business system
+•	Persistent gangs
+•	Territorial battles
+•	Arms dealers
+•	Drugs baron
 
-Update on Mac and Linux: We will have Mac and Linux versions available as soon as Steam gets some stuff set up on their end.",2013-04-24 17:14:37
-50,April 19th patch notes,6,Harabeck,1cpikq,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1cpikq/april_19th_patch_notes/,4,"0.009
 
-* Added textures for size 1 cockpits 7, 8, 9, and 10
+Professions:
 
-* Added textures for size 2 cockpits 1 and 2
+•	Law Enforcement
+•	EMT
+•	Fire Brigade
+•	Air rescue
+•	Gangs (various illegal activates to keep them active). Max 20 gangs per server. Player must “apply” and have their gang approved before being created.
+•	Various businesses (car factory, oil plant, fuels stations, food shops, general markets, clothing shops, chop shops, delivery drivers, showrooms, taxis, buses, marine shops and more)
+",2014-04-30 11:18:57
+34,793.5 mb update. Is there any description for it?,8,,24dv26,arma3,https://www.reddit.com/r/arma3/comments/24dv26/7935_mb_update_is_there_any_description_for_it/,10,,2014-04-30 10:51:57
+35,What would you do in this situation?,9,Thew1ldOne,24dmzj,arma3,https://www.youtube.com/watch?v=1THKsSFjWqU,1,,2014-04-30 09:32:47
+36,Preformance tips for laptop user,1,Fantact,24evqa,arma3,https://www.reddit.com/r/arma3/comments/24evqa/preformance_tips_for_laptop_user/,2,"Im using an Asus A55V with a Nvidia 610m, 6GB of ram and a i7-3610QM(8-cpus) and was wondering quite a few things.
+How do I improve my overall preformance? I want a balance between good looking and functionality since poor grafics hamper my own preformance ingame spotting enemies.
 
-* First phase of the Shipyard UI update is now complete
+Now Ive tried a few things, i run process lasso, i have disabled cpu/gpu(?) parking, I run game booster, and keep my system quite clean, could antivirus/malwarebytes or the like be hampering preformance?
 
-* All parts are displayed in the module panel with a visual icon of the module.
+Also sometimes low graphics make it worse while high graphics make it better, ive noticed this in quite a few games but i cant seem to get the best fit for my rig, the ingame FPS counter is not to be trusted.
 
-* Removed holographic preview
+Any help is appreciated, I have read the most commonly avavible guides out there so linking to them would be a waste of time but thanks anyways.",2014-04-30 16:55:37
+37,Activating mods for Zeus,1,Yosinuke,24evhw,arma3,https://www.reddit.com/r/arma3/comments/24evhw/activating_mods_for_zeus/,2,I got an mod called 'wander panzer' and I created a simple Zeus in the editor for messing around and having fun with units. I activated the mld in arms 3 but I don't see the mod units anywhere. How can I enable it?,2014-04-30 16:52:47
+38,Please tell me there is a way.,5,i_like_outer_space,24djg7,arma3,https://www.reddit.com/r/arma3/comments/24djg7/please_tell_me_there_is_a_way/,6,Can I filter the server list so that nothing with Altis Life in the mission appears? I feel like I can't find any of the good servers out there because a massive percent of whats returned is Altis Life,2014-04-30 08:59:17
+39,King of the Hill GIggity Livestream,0,1027christian,24eu6l,arma3,http://www.twitch.tv/1027christian,0,,2014-04-30 16:38:15
+40,Sniping the pilot of a Armed Orca on Wasteland,17,IDESOFENDETH,24brkq,arma3,https://www.youtube.com/watch?v=vOo0_fDZ4Lo,13,,2014-04-29 17:38:22
+41,Episode Eight - Mother Russia,0,iamalphareddit,24czq0,arma3,https://www.youtube.com/watch?v=hZnLadejUkM,0,,2014-04-30 04:59:15
+42,Epic Police Chase - Ends in Shootout,1,Remington_XL,24cufq,arma3,https://www.youtube.com/watch?v=ETqSXYyHpgA&feature=youtu.be,0,,2014-04-30 03:11:09
+43,ArmA 3 - Surrounded Equals Fun [ALiVE],3,Blackgoofguy,24c3og,arma3,https://www.youtube.com/watch?v=6WfwH1qvfPM,1,,2014-04-29 19:43:05
+44,Arma 3 Wasteland - 2 In The Chamber,3,TehRiehlDeal,24bv4j,arma3,http://youtu.be/bOzfO2ghMEM,0,,2014-04-29 18:14:40
+45,"""Your bullets have no effect on this armo-."" :|",2,Spawn_Beacon,24c6qq,arma3,http://youtu.be/5nqEg0ebbxI,0,,2014-04-29 20:17:07
+46,"Please direct all 'Life' posts to the new Subreddit, created just for Lifers!",1,ToxicSludge1977,24bx8o,arma3,http://www.reddit.com/r/armalife/,11,,2014-04-29 18:36:07
+47,New to A3 - Where do I begin?,2,Davai_Dirtbag,24bsbb,arma3,https://www.reddit.com/r/arma3/comments/24bsbb/new_to_a3_where_do_i_begin/,3,"I have played A2 & OFP almost exclusively in SP, though some domination & warfare with a friend or 2 vs AIs. A3 looks awesome, though I am not so sure on the scifi setting or lack of variety. Can anyone give me directions to some good mods/gamemodes to play on as the server list is populated almost exclusively by roleplaying stuff, which isn't really my cup of tea.",2014-04-29 17:45:29
+48,Need help with adding add-ons to a mission.,1,Aidandrums,24cawn,arma3,https://www.reddit.com/r/arma3/comments/24cawn/need_help_with_adding_addons_to_a_mission/,6,"I am looking to add a mod (adds a vehicle) to a mission, but making it so not everyone has to download the mod in question. I know it is possible as many missions on the steam workshop are capable (MCC, USS Nimmits/F-18, ect.). I have been looking for the better part of 3 hours to no avail. Does anyone know how this works? 
 
-* The subsystem widow has completely changed. When accessing a parts subsystem inventory it will now show all available space on the left, and all subsystems that you can put into it on the right. If a subsystem takes up more than 1 ‘volume’ of space, the empty spaces will get a red outline and be pushed to the end of the list, these spaces are being used and cannot hold any systems.
+***WARNING: MY ABILITY TO SCRIPT IS NEAR NON-EXISTENT***
 
-* To place a subsystem, simply click on it, no more drag and drop for this mechanic.
+Thanks to all who can help.",2014-04-29 21:08:38
+49,Video compilation April 2014 of CAA,3,SpetS15,24aw3z,arma3,http://youtu.be/qmzQxGKUnDw,2,,2014-04-29 12:28:27
+50,[A3] Cerberus Addon for Arma 3,16,bull_a,249pos,arma3,https://www.reddit.com/r/arma3/comments/249pos/a3_cerberus_addon_for_arma_3/,8,"Hello everyone.
 
-* As you add subsystems to a module, it will filter out the ones that can no longer be placed, due to restrictions, or size limitations.
+http://i.imgur.com/Rs33ZUO.png
 
-* Added main menu to the shipyard, uses escape to access it.
+I would like to introduce the Arma 3 Addon, CERBERUS. This addon is set to increase the functionality of Arma 3 by adding a load of new features and content to the Vanilla game of Arma 3.
 
-* Fixed a problem with the main menu in space where the shipyard button would not take you to the shipyard.
+The mod will include:
 
-* All subsystem icons are temporary and only display text.
+- NEW Arma 3 Campaign
+- NEW Singleplayer and Multiplayer Missions
+- NEW Showcase missions
+- Advanced Map Editor Functions
+- 3-D Editor
+- NEW Medical System GUI (Uses Arma 3 Vanilla medical control system)
+- FUTURE PLANNING: Arma 3 Terrain - Tenedos
 
-* A lot of tooltips still need to be added
+Hope this wets your appetite.
 
-* Several fields in the stats panel on the left are not fully functional
+Regards,
 
-Now that the UI is at it's next stage of development we will be working on getting Linux and Mac versions available to the public. ",2013-04-19 16:36:57
-51,April 6th patch,5,Harabeck,1btm73,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1btm73/april_6th_patch/,1,"0.008
+Bull
+TiB Administrator
 
-* Continuing with our UI update, the first pass for the new in-flight GUI has been implemented.
+LINK TO IMGUR GALLERY:
 
-* The ‘G’ key will bring up the weapon manager. Here you can assigned turrets to weapon groups. In the future, it will also show weapon stats.
+http://imgur.com/a/TpFY7",2014-04-29 04:48:18
+51,Core Tactical - An ArmA community that wants you!,0,,24c1z2,arma3,https://www.reddit.com/r/arma3/comments/24c1z2/core_tactical_an_arma_community_that_wants_you/,2,"**What is Core Tactical all about?**
 
-* The ‘K’ key will bring up the faction menu. It should be similar in functionality to the previous Scaleform version.
+Core Tactical is based off the idea off ""Tactical Fun"", and we like to stand by this ideal as we play in and outside of ArmA. The ""Tactical"" part reflects the way we communicate, move, and function on a large scale. The ""Fun"" part reflects the way we go about making the experience for our members and ourselves. Basically were looking to make the best experience possible for all of our member base. Most of our missions revolve around intense close quarters infantry contact, with other units/assets acting as supporting elements. 
 
-* The ‘M’ key will bring up the map. You can drag the map with the mouse and zoom with scroll wheel. There are also + and - buttons for zooming. The ‘R’ button will reset the map to the original zoom level and on the center of the galaxy. In the future, this will reset to the sector you are in.
+We aren't looking for easy, clean and cut scenarios. We like throwing ourselves into intense situations, we want are victories to be earned through teamwork, skill, and determination. If we don't put our all in, we don't expect to come out on top. 
 
-* The radar will now let you select a radar contact by clicking the icon, instead of having to click over the object in space.
+All of our missions are made in house by members within the community. We provide a wide variety of cooperative and adversarial scenarios. From an air cav squad in the heart of Nam', to a Russian Spetsnaz unit infiltrating into enemy bases. In our adversarial scenarios we are able to take advantage of human dynamics to change the way our missions play and interact with the player.
 
-* Previously, only locking a target displayed its range. Now just selecting a radar contact will display the range as well.
+**Core Tactical's Virutes**
 
-* Upon locking a target, it will automatically be set as the focused target. This means that as soon as you lock a target, you can hit the weapon group key to immediately assign weapons instead of first having to use the F keys to set the focused target.
+Core Tactical has hereby been established to serve as a mature community that focuses on tactical fun. We believe that any set community should be set on a few common principles, which are listed below.
 
-* Increased size of asteroids.
+* Respect - Simple, treat others as you would like to be treated. If you are found to be disrespecting other members, you can expect to see yourself out the door.
+*  Well Thought out Tactics - Maintain a high level of tactical game play no matter the situation or scenario.
+* Motivated Leaders - We strive for a high degree of competency in our playerbase insofar as leadership goes, as well as pride ourselves on how well our non-leading players will follow orders and conduct themselves in any given mission. We find that alot of times people are scared to step up to the plate and take that Squad Leader position, thinking that people will get angry at them for leading them to death or something. While in reality a squad of Core Tactical members will gladly follow you to the gates of hell if need be.
+* Professionalism - Always exhibit a supreme level of professionalism in and out of the community's official sessions.
+* Quality over Quantity - At Core Tactical we are always looking for the quality of our player base, over our player count.
 
-Next up, we will work on the shipyard UI. Once the UI update is complete, we should be able to begin testing Mac and Linux builds.",2013-04-06 16:15:36
-52,General feedback thread,2,paper_rocketship,1bsm0p,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1bsm0p/general_feedback_thread/,4,"I'll set this up as a general thread for suggestions, bugs, etc. Hopefully this can help the devs by having a bunch of information for them in one place. ",2013-04-06 06:22:05
-53,Patch note thread week of 3-25,5,Harabeck,1b2y38,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1b2y38/patch_note_thread_week_of_325/,4,,2013-03-26 18:15:59
-54,We're now available through Steam's Early Access program!,13,Harabeck,1aphaz,KineticVoid,http://store.steampowered.com/app/227160/,3,,2013-03-20 19:24:23
-55,Patch not thread for the week of 3-20,6,Harabeck,1apjh2,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/1apjh2/patch_not_thread_for_the_week_of_320/,4,"We're gonna do frequent updates, so I'll consolidate patch notes in this thread.
-",2013-03-20 19:52:41
-56,First playable test. Presumably for preorderers,6,kelmar6821,1acl8c,KineticVoid,https://twitter.com/BadlandStudio/status/312011671109521408,2,,2013-03-15 06:51:14
-57,Technical Artist Update,3,kelmar6821,1a0ees,KineticVoid,http://badlandstudio.com/forums/topic/technical-artist-dev-update/,0,,2013-03-09 21:17:16
-58,Feb 28 update,4,zman686,19i4qt,KineticVoid,http://badlandstudio.com/forums/topic/development-update-2282013/,0,,2013-03-01 19:04:04
-59,Feb 13th Update,4,kelmar6821,18htwp,KineticVoid,http://badlandstudio.com/forums/topic/development-update-2132013/,0,,2013-02-13 20:35:43
-60,Badlands Studio makeover company page and forums,3,kelmar6821,17z2wx,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/17z2wx/badlands_studio_makeover_company_page_and_forums/,0,"http://badlandstudio.com/forums/
 
-You might have to reregister your account",2013-02-05 18:26:20
-61,Big update on the KS page,6,kelmar6821,17m609,KineticVoid,http://www.kickstarter.com/projects/seanpollman/kinetic-void/posts/389934,0,,2013-01-30 22:05:56
-62,Prototype HUD,4,kelmar6821,17gza5,KineticVoid,https://twitter.com/BadlandStudio/status/279676711027740672,1,,2013-01-28 18:42:49
-63,Procedural star demo video,6,Harabeck,122hue,KineticVoid,https://www.youtube.com/watch?v=N88TZPUlkFg,1,,2012-10-25 08:30:21
-64,I'm promoting your game on /r/Simulate; my new sub-reddit,8,ion-tom,10wlpo,KineticVoid,http://www.reddit.com/r/Simulate/comments/10wjl8/kinetic_void_on_steam_greenlight_procedural/,0,,2012-10-03 16:58:34
-65,Kinetic Void - In game trailer - YouTube,14,LumberingTroll,10uiz4,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/10uiz4/kinetic_void_in_game_trailer_youtube/,0,"Our new trailer is here. It shows off our new art assets made possible after our successful Kickstarter. The entire trailer is in engine. This is still from a pre-alpha build of the game, so everything is subject to change. The trailer highlights a few of our features including detailed ship building as well as procedural planet textures and star systems.
-",2012-10-02 17:33:48
-66,The Miracle... in graph form,10,Inglonias,ud3m4,KineticVoid,http://imgur.com/RCKa5,1,,2012-05-30 18:29:47
-67,The Kickstarter succeeds! Thanks to everyone who helped out!,13,Harabeck,ucmk6,KineticVoid,https://www.reddit.com/r/KineticVoid/comments/ucmk6/the_kickstarter_succeeds_thanks_to_everyone_who/,9,"As of this post we have four hours left and are at $61,732 of $60k. A ton of those pledges came from Reddit, so thanks a ton!
 
-Remember to check out our site kineticvoid.com for news, media, and [our forums.](http://kineticvoid.badlandstudio.com/forum/index.php)",2012-05-30 13:17:04
-68,Funding is successful!,9,wiseguy430,ucmb2,KineticVoid,http://www.kickstarter.com/projects/seanpollman/kinetic-void,0,,2012-05-30 13:12:32
+**What makes a good Core Tactical member?**
+
+Core Tactical expects a certain level of quality from members, at all times. You are expected to follow the virtues listed above, as well as abiding by our technical obligations. 
+
+When it comes to looking over an application, were looking for individuals who generally meet some of the criteria below.
+-At least 16 years of age.
+-Good sense of humor.
+-Friendly respectful and mature.
+-Teamwork-oriented mindset.
+-Motivated and dedicated to making the group and our experiences the best they can be.
+
+
+**See us in action!**
+
+ArmA 2: https://www.youtube.com/watch?v=_aYPKyohCyg
+
+ArmA 3: https://www.youtube.com/watch?v=AlYSEUJ_ogI
+
+
+
+
+**Applying to Core Tactical**
+
+It should be noted that Core Tactical is playing both ArmA 2 and ArmA 3 at the moment, however, come mid June we will be a full fledged ArmA 3 group!
+
+If you are interested in joining the group you can apply here: http://core-tactical.com/?page_id=33
+
+If you would like to directly contact me, you can throw me an email at connorwarman.com@gmail.com or my steam name which is simply put, Connorwarman.
+
+Status updates will be listed in this thread over the next..well. As long as we exist.",2014-04-29 19:25:06
+52,Battle royale broken?,3,,24ap7s,arma3,https://www.reddit.com/r/arma3/comments/24ap7s/battle_royale_broken/,6,Today i noticed there are no bombing zones anymore. I played on a lot of different servers and it says there are bombing zones but there aren't. Another thing i noticed was supply crates being empty and it - one time on a server 4 crates were empty - so it's just a server thing or  bugs?,2014-04-29 11:24:37
+53,New! Arma 3 Patrol Ops Takistan - Titan Tactical - Tactical Realism,2,Haymaker19,24b7zx,arma3,https://www.reddit.com/r/arma3/comments/24b7zx/new_arma_3_patrol_ops_takistan_titan_tactical/,0,"Us at Titan Tactical have customized the Patrol Ops mission to support Takistan and a few other mods, including Task Force Radio and the F15.
+
+VOTE FOR NEW ADDONS: http://www.easypolls.net/poll.html?p=535fb791e4b060ef2f0bfda1
+
+You can download all of these mods from Play with Six or Six Updater.
+
+Server Host Filter:
+http://bige.enjin.com/ or DAXX or Titan Tactical
+
+If you find this in Play With Six's server browser you can make a collection with these mods without any problems. 
+
+Tutorial on our steam page: http://steamcommunity.com/groups/TitanTac#announcements/detail/1819762155300615714
+
+Important support slots require Teamspeak and Task Force Radio.
+
+Teamspeak: 199.96.84.10:10000
+
+Website: http://bige.enjin.com/
+
+See you on the wire.",2014-04-29 14:19:00
+54,Arma 3 Patrol Ops 3.1 Server - VOTE FOR ADDONS -Titan Tactical,3,Haymaker19,24a493,arma3,http://www.easypolls.net/poll.html?p=535fb791e4b060ef2f0bfda1,0,,2014-04-29 07:59:24
+55,SOCOMD Intro Vid,6,SOCOMD_ArmA,249llk,arma3,https://www.youtube.com/watch?v=5gv0cW0gkzg,0,,2014-04-29 03:23:42
+56,Anyone with similar specs?,3,TheViper66,249uzq,arma3,https://www.reddit.com/r/arma3/comments/249uzq/anyone_with_similar_specs/,2,"I have HD 5670 1gb, Phenom II X2 550 BE and 4GB RAM... how much fps you get on 1920x1080 and 1280x720 with similar specs? Thanks!",2014-04-29 06:11:06
+57,Bob wins at the duck duck goose game.,4,bearbums,249hr5,arma3,https://www.reddit.com/r/arma3/comments/249hr5/bob_wins_at_the_duck_duck_goose_game/,0,http://imgur.com/a/fwZ7x,2014-04-29 01:55:44
+58,Major lack of servers?,9,Sevrons,248z86,arma3,https://www.reddit.com/r/arma3/comments/248z86/major_lack_of_servers/,3,"I know other servers exist, but right now I am unable to play multiplayer because I am only able to see 5 servers, and these 5 servers are password locked. (None of them are battle royale servers either, which is what I really wanted to try today.) Going dev branch didn't help. Could use some guidance. Thanks for any input.",2014-04-28 20:44:22
+59,Second time playing Battle Royale (the original Hunger Games)... people are awesome.,16,JebusJM,2476dc,arma3,https://www.reddit.com/r/arma3/comments/2476dc/second_time_playing_battle_royale_the_original/,19,"It was about 45 minutes into the game, there was only 7 of us left. I was never able to get a real gun and was stuck with a silenced pistol. The radius suddenly got extremely small and everyone was 400m away and we only had 60 seconds to to it. Running through the jungle, enemies close by, I came up behind someone with a PDW. I yell into group chat ""Well, this is awkward, I'm running behind someone"". Neither of us had time to take a shot off, we were getting hurt because we were 150m out of the radius. This is where it gets amazing...
+
+I get hurt enough that I'm forced to walk. The guy I'm following turns around and goes ""I'm going to drop you a medkit"". He runs to me and then he is also slowed. We both heal and keep running. He had given me his second last medkit and just used his last one on himself. I was ahead of him and made it into the radius. He had not made it inside the radius in time and was stuck in prone and he had to roll into the radius just in time.
+
+I never saw him again, one of the other players found and murdered him. I was able to take refuge behind a rock on the coast, hidden by the water. I ended up winning the game.
+
+People are awesome.",2014-04-28 09:56:02
+60,Arma 3 I believe I can fly (F/A-18 Jet Sheanigans),0,WhiteeRavenPlays,249c3s,arma3,http://www.youtube.com/attribution_link?a=AofXlVmvD70&u=%2Fwatch%3Fv%3DD0Z8tdjUJEQ%26feature%3Dshare,0,,2014-04-28 23:54:37
+61,Arma 3 Roleplay Server,2,Kyepritchard,248hng,arma3,https://www.reddit.com/r/arma3/comments/248hng/arma_3_roleplay_server/,0,"Alpha Papa Gaming is an ArmA 3 server and gaming community. We run ArmA 3 Altis Life and we aim to provide great Rp, Gameplay and Fun in our Servers.
+
+Feel Free To Join.
+
+http://apgaming.co.uk/home",2014-04-28 17:40:15
+62,I need a platoon,5,SwaggerWagon45,247jb8,arma3,https://www.reddit.com/r/arma3/comments/247jb8/i_need_a_platoon/,4,Hey guys I got the game anyone have a platoon I can join?,2014-04-28 12:02:21
+63,ScatmanJohnn STREAMING BATTLE ROYALE!,0,BrittingItUp,249nko,arma3,http://www.twitch.tv/scatmanjohnn,0,,2014-04-29 04:07:43
+64,Battle Royale : Team Nobhead,1,Rambosilk,2485lt,arma3,https://www.youtube.com/watch?v=9qiwCWv_3jM&list=UUBNHWki2edFWMi-Ieg33ohg,0,,2014-04-28 15:34:34
+65,"Hey guys, we from ORE Gaming have recently started our own Youtube Channel. We have been arround for a while now and our Community is growing every day. We started playing the Battleroayal Mod for Arma 3 lately and you can find a Montage, Highlights and some gameplay footage on our Channel.",0,oregaming,2485fm,arma3,https://www.youtube.com/channel/UChj7oJ0phSY3Yhzqq9d7I8w,0,,2014-04-28 15:32:39
+66,15th MEU FORCE RECON POW Rescue (Night)[HD],1,aalpha3,247wm1,arma3,http://youtu.be/PjyuKGlczL0,0,,2014-04-28 14:06:53
+67,one of those moments,1,GVMuk,247ua4,arma3,https://www.youtube.com/watch?v=j2csPocL_dg,0,,2014-04-28 13:45:15
+68,The Independents - Arma 3 Wasteland - Ep.3,0,KurruptGamingHD,247rw6,arma3,http://youtu.be/fNkoMB7G_Nw,0,,2014-04-28 13:23:06
+69,"I bought Arma 3, did i just get scammed?",1,HistoryChannel1,247j6k,arma3,https://www.reddit.com/r/arma3/comments/247j6k/i_bought_arma_3_did_i_just_get_scammed/,6,"I live in europe, Sweden.
+I bought a digital version (cd-key) of arma 3 on a website. It said it was ""ARMA 3 (English Version) ARMA3EN"" 
+
+When activating the code in steam i get ""Activation Successful!"" but the product is ""Arma 3 Retail - Australia""
+
+So my question is, will this be a problem for me? Did I just get scammed?
+
+
+Update -
+I was able to start the game without any issues. 
+Installing breaking point right now and everything seems to be going well so far.",2014-04-28 12:01:07
+70,This is why i love ALTIS LIFE,0,Steff0,246w3b,arma3,http://www.twitch.tv/steff0/c/4146815,0,,2014-04-28 08:12:42
+71,Road trip through Altis in less then 4 mins (Fast Foward),9,klusps,2454j9,arma3,https://www.youtube.com/watch?v=fBc5TcR8Mjo&feature=youtu.be,4,,2014-04-27 16:30:28
+72,Battle Royal clumsy soldier,0,spanishsurvivors,246f8l,arma3,http://youtu.be/x-WyWbD226o,0,,2014-04-28 04:21:47
+73,Performance delta with dedicated PhysX card?,2,MaleficSpectre,24649t,arma3,https://www.reddit.com/r/arma3/comments/24649t/performance_delta_with_dedicated_physx_card/,14,"I am currently running an FX 6300 @ 4.5GHz, 8 GB ram @ 1866MHz, and an Asus GTX 770 OC 2GB. Would adding a dedicated PhysX card help alleviate the issues that plague this game engine and allow me to achieve more than 25fps stable? I have a 650 ti back home and didn't want to pay postage if it wont help. Thoughts?",2014-04-28 00:13:33
+74,Looking to buy a laptop for ARMA III.,0,,245fh5,arma3,https://www.reddit.com/r/arma3/comments/245fh5/looking_to_buy_a_laptop_for_arma_iii/,12,"Hi! I'm looking to buy a laptop to play ARMA III with that can do more than just the most basic settings.  Do any of y'all play on laptops, and if so what's your rig?",2014-04-27 18:32:38
+75,BattleEye Client Not responding,2,1nfect3d,244j00,arma3,https://www.reddit.com/r/arma3/comments/244j00/battleeye_client_not_responding/,0,"Hey friends, 
+So I'm having this annoying problem, google didn't help much.
+
+I've downloaded the BE client and server Dlls and placed them in arma3 directory and in local\arma3\battleeye directory.
+upgraded my router firmware to the latest [not sure even what it had to do with anything],
+reconfigured things in there to work with something LLC instead of something VC [not sure what that is as well],
+And reinstalled the game 2 times. and even forwarded 20302 port nothing helps, and i keep getting that client not responding kick every 5-20 minutes :(
+Longest i could play was 20min, I really want the opportunity to play the game fluently with out that stuff, on BE disabled servers i run just fine, but those servers are mostly empty or not co-op.
+
+If any one know or can help me on that matter i would be grateful ",2014-04-27 12:33:53
+76,New Arma 3 Patrol Ops Realism Server,6,Haymaker19,243v1a,arma3,https://www.reddit.com/r/arma3/comments/243v1a/new_arma_3_patrol_ops_realism_server/,1,"Us at Titan Tactical have customized the Patrol Ops mission to support Lifter, Task Force Radio, HAFM Helis, and U100 (SCAR pack). 
+
+VOTE FOR NEW ADDONS: http://www.easypolls.net/poll.html?p=535fb791e4b060ef2f0bfda1
+
+You can download all of these mods from Play with Six or Six Updater.
+
+Server Host:
+
+DAXX Titan Tactical 
+
+If you find this in Play With Six's server browser you can make a collection with these mods without any problems.
+
+Server is first person only and important support slots require Teamspeak and Task Force Radio.
+
+Teamspeak: 199.96.84.10:10000
+
+
+Tutorial on our steam page:
+http://steamcommunity.com/groups/TitanTac#announcements/detail/1819762155300615714
+
+See you on the wire.
+
+",2014-04-27 07:58:58
+77,Battle Royale Driving Skills,0,Goinsey,244xk9,arma3,http://www.youtube.com/watch?v=7zRBuw5hJjo&feature=share&list=UU7oyUoKIsuTOqPbs0WJmVRA,0,,2014-04-27 15:11:09
+78,My specs are good - why is my ARMA3 performance so bad?,8,pretty_good_guy,243b4u,arma3,https://www.reddit.com/r/arma3/comments/243b4u/my_specs_are_good_why_is_my_arma3_performance_so/,23,"Specs: 
+
+CPU - QuadCore AMD Athlon II X4 630, 2800 MHz (14 x 200)
+
+Motherboard - Asus M4A77TD Pro 
+
+Motherboard Chipset - AMD 770, AMD K10
+
+RAM - 4096 MB (DDR3-1333 DDR3 SDRAM)
+
+GPU - AMD Radeon HD 7800 Series (2 GB)
+
+***
+
+ARMA3 website specs: http://www.arma3.com/buy#requirements
+
+***
+
+I'm lucky to get 30fps in single player, and 15fps in multiplayer (generally sticks around 9fps). 
+
+I've tried the various tricks and launch parameters to no avail. Am I missing something? Should I overlock? Should I SSD? 
+",2014-04-27 00:35:37
+79,Was playing wasteland and got a nice 500m headshot through a car,18,IDESOFENDETH,242u3u,arma3,https://www.youtube.com/watch?v=m8V2tTS3Ewo,0,,2014-04-26 20:10:01
+80,Arma 3 Fallujah Patrol Ops Preview... Possibly Open for Download - Titan Tactical,0,Haymaker19,244abg,arma3,https://www.youtube.com/watch?v=FQkfJDVoxa8,0,,2014-04-27 11:01:03
+81,42nd Air Assault Regiment is NOW recruiting.,1,JBaker42nd,2448v1,arma3,https://www.reddit.com/r/arma3/comments/2448v1/42nd_air_assault_regiment_is_now_recruiting/,0,"The 42nd Air Assault Regiment is a semi-realism military simulation group. We use the Unites States Army structure. We participate is many structured events within ArmA 3.
+
+Our currently played games are ArmA 3 and CoD: Ghosts.
+
+We are looking for mature players age 16+ to fill out our ranks within our platoons.
+
+Interested? Check us out at WWW.42NDAAR.COM. Want to have a fun time within a structured unit? Feel free to fill out an application and a recruiter will get with you to set up a meeting time.
+
+J. Baker, USA
+Master Sergeant
+103rd Company
+42nd Air Assault Regiment
+Company Recruiting NCOIC
+
+
+",2014-04-27 10:45:21
+82,"My take on the ending of ""Win""",1,zendopeace,243rhc,arma3,https://www.reddit.com/r/arma3/comments/243rhc/my_take_on_the_ending_of_win/,1,"The earthquakes are obviously triggered by man, using these devices found in the dome, but noone on the net it seems knows why they even have a place in the campaign.
+
+But if you pay attention to the hints and tips, a few of them mention the ruins on the islands and an ancient civilization that ""sank beneath the sea"". I suspect that the earthquake devices were made by either CSAT or NATO black ops (not sure which) with the intention of raising this civilization from the depths of the sea. For CSAT, it would potentially mean exploiting treasures and maybe some ancient technologies; NATO/Millar would be interested in the scientific pursuit of it, and potentially ancient technologies again.
+
+I would put money on this being the plot of the next campaign episode.",2014-04-27 07:08:00
+83,Midnight gaming wasteland server admin abuse warning,14,xBoredumx,2424gd,arma3,https://www.reddit.com/r/arma3/comments/2424gd/midnight_gaming_wasteland_server_admin_abuse/,11,"Do not join the Midnightgaming #3 server for any reason the admins are absolutely childish. My group of 3 friends decided to head down to Limeri  bay and go buy something from the gun store when we get there I see someone pop up out of the water in a wetsuit and shoot at me, he misses his shots then i shoot back as he ducks into the water. I walk up to him so next time he pops up he will die and he continues to sit there. My friend then buys a grenade to throw at him so he would die and he pops up and shoots me very quickly then dies to my friend. As my friend is reviving me he is kicked by this ""Pert"" guy (obviously because he couldn't take losing his shit) and after I confront ""Pert"" about the kick I am then banned.",2014-04-26 14:38:38
+84,SOCOMD ArmA Unit Introduction,1,SOCOMD_ArmA,243hpk,arma3,https://www.reddit.com/r/arma3/comments/243hpk/socomd_arma_unit_introduction/,0,"**Welcome to SOCOMD 2.0.** After having undergone a massive rehaul which saw a wide variety of additions and improvements to SOCOMD Gameplay, SOCOMD is now rising above as one of the most authentic communities to play **ArmA 3**. 
+Not only has SOCOMD improved its gameplay tremendously, we have also seen a massive influx of community expansion and involvement. We are now pushing for the title of the largest Australian/NZ ArmA community to date with 75 registered members and many more unregistered (we are not far off being the largest now). 
+
+Please sit back, grab a beer and watch our SOCOMD introductory video:
+&nbsp;  
+&nbsp;   
+***https://www.youtube.com/watch?v=5gv0cW0gkzg***
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+**SO, WHO ARE SOCOMD?**
+
+Special Operations Command (SOCOMD) is an Australian based **ArmA 3** realism unit that is structured around the SASR, Commando & 5th Aviation Regiments of the Australian Defence Force. SOCOMD specialises in both COOP and PvP gameplay using weaponry and tactics based on those employed by the Australian Military. Our primary goal and mission statement is to…
+&nbsp;  
+
+***“Provide a fun, immersive & authentic Australian ArmA gaming experience supported by a democratic, persistent and active community of mature gamers”.***
+&nbsp;  
+
+In other words, we don’t refer to each other by our ranks and salute the Officers among us when we are in-game like some of the other realism units out there, but we do pride ourselves on maintaining a fun, immersive and authentic ArmA gaming experience – yes, this means that good old fashioned Aussie banter is welcome, but when the bullets start flying, it’s time to get our A-Game on.
+With SOCOMD’s founder being an ex-member of the RAAF’s Airfield Defence Guards (ADG’s), and many more members having either served previously, or are currently serving in the Australian Defence Force, this is the unit for you if you want an immersive and authentic Australian ArmA gaming experience, with the main goal of having **SERIOUS FUN!** 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+**WHEN DO YOU GUYS PLAY?**  
+SOCOMD Mission schedules are based around Australian and NZ time-zones (typically GMT +10). We are not exclusive to Australians and accept all who are willing to play within these time-zones. We run Official Operations (hosted and organised by designated members) 6 days a week and run many Unofficial Operations (hosted by any willing community members - yes, that means you too) every single day of the week.
+You can learn more about this here: *http://www.socomd.com/when-do-you-guys-play/*
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+**HOW IS SOCOMD STRUCTURED?**  
+We do not employ an overbearing Ranking structure. Ranks within SOCOMD are there to ensure that our gaming can be as smooth and efficient as possible. It is also a way for us to indicate who has training for specific roles within the platoons. As far as ranking goes, every single member in SOCOMD is as valuable to us as the next (except 5th Av, they're expendable). At SOCOMD, nobody will force you to do something that you do not want to do. However, should you volunteer as such, your sacrifice WILL be noted and appreciated.
+You can learn more about this here: *http://www.socomd.com/how-serious-are-you-guys/*
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+**SOUNDS AWESOME, SIGN ME UP!**
+
+Applying is as simple as filling out a short Application Form. A SOCOMD representative will get back to you within 2 days at the very latest. We ensure that applicants and recruits do not have to bare long application times. Instead, we prefer to get you in and playing with us straight away, as that is the best way to familiarise with each other. We strongly recommend getting in now whilst we are growing fast. 
+You can learn more about this here: *http://www.socomd.com/how-do-i-sign-up/*
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+**OKAY, YOU'RE RAMBLING HERE AND I'M NOT QUITE SOLD. ANYTHING ELSE TO SAY?**
+
+* SOCOMD takes pride in providing exclusive content that you will not find anywhere else. Recently we have employed the use of Zeus within our Official Operations for those who are looking for a dynamic and intense ArmA gaming experience.  
+
+
+* SOCOMD will never ignore its members and takes all opinions and suggestions seriously. We ensure that every community member's opinion is heard across the whole of SOCOMD by organising frequent community central 'round table' discussion events.
+
+
+* Not only do we have 75 registered members (and counting), we also conduct frequent joint operations with other Australian ArmA Teams, such as Borderline Tactical, so we can truly push for those large scale operations.
+
+
+* We have members working hard behind the scenes to ensure that SOCOMD is a friendly, harassment free environment and that all our Official Operations are of highest quality. Of our 75 registered members, not a single one has yet to exclaim that they do not enjoy themselves.
+
+
+* Within SOCOMD, there is more for you to do than slay enemies. We look for community input in other ways such as Mission Editing, Video submissions, Writers and many more community based tasks. In the end, it's community involvement that keeps SOCOMD healthy. 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+**If you have any further questions or queries please do not hesitate to reply below.**
+
+**See you on the battlefield, mate.** ",2014-04-27 03:29:27
+85,Im Streaming Battle Royal!!,0,SirHendrok,243uja,arma3,http://de.twitch.tv/demongod92,1,,2014-04-27 07:51:21
+86,Need help with a rented server.,1,,242qim,arma3,https://www.reddit.com/r/arma3/comments/242qim/need_help_with_a_rented_server/,2,"I recently rented an Arma 3 server from gameservers.com and have no clue how to get it to work. I was able to set up the server name and add a mod which I thought I did correctly but I still can't connect to my server. All I get is a ""connecting failed"" message every time. Any help would be much appreciated.",2014-04-26 19:21:11
+87,Good server hosts?,1,kvntvan,242gow,arma3,https://www.reddit.com/r/arma3/comments/242gow/good_server_hosts/,1,"Any recommendations for a stable dedicated server host? 
+
+I have zero experience hosting servers but my groups growing to the point where my internet can't reliably host games without constant desync.
+
+edit - I am located in US West
+",2014-04-26 17:10:58
+88,Altis life server,1,Hxnt,242g1z,arma3,https://www.reddit.com/r/arma3/comments/242g1z/altis_life_server/,8,Hi I am new to pc gaming and I bought my first ever pc game (Arma 3) and I was wondering if anyone knows of a good server for a beginner on Arma 3 altis life,2014-04-26 17:03:14
+89,Chicken Royale,1,ReasonerUK,2426sw,arma3,https://www.youtube.com/watch?v=UfIADlG4hDk,0,,2014-04-26 15:07:03
+90,By request: Solar Tower plane trick: first person edition,32,skippythemoonrock,23zb2v,arma3,http://gfycat.com/CaninePastBassethound,8,,2014-04-25 13:32:52
+91,Amazing car collision physics,17,abdulzz,23zsz5,arma3,http://gfycat.com/EsteemedGeneralGoldenretriever,2,,2014-04-25 16:54:01
+92,BATTLE ROYALE PACIFIST - Arma 3 Battle Royale Mod (How he won as a pacifist I will never know),0,Twiglet31,241kei,arma3,https://www.youtube.com/watch?v=o8BCd1O5XOQ,0,,2014-04-26 10:40:55
+93,I just played on a great Wasteland server. It definitely had some touching moments...,21,Vlad1989,23zdmc,arma3,http://imgur.com/AQ9mc8t,0,,2014-04-25 14:00:31
+94,Fire Team Training - FOB Defense,3,msrichson,240qw3,arma3,https://www.youtube.com/watch?v=9D7-R7WnI70,0,,2014-04-26 02:12:36
+95,So someone got the planetside 2 map data out. Anyone want to import them to arma 3?,9,RottenGrapes,23zj2p,arma3,http://www.reddit.com/r/Planetside/comments/23y7eq/planetside_2_terrain_data_obj/,4,,2014-04-25 14:59:40
+96,Having issues advancing in SP due to squad AI,2,zendopeace,2405h8,arma3,https://www.reddit.com/r/arma3/comments/2405h8/having_issues_advancing_in_sp_due_to_squad_ai/,9,"I have an AT soldier in my squad, and want him to ambush an APC. I get him in position, tell him to hold fire, then when it comes near, order him to engage. He proceeds to fire at it with his rifle a few times while it drives away, shooting at him. Sometimes he finally decides AT would be better and tries to switch, and fire. Most of the time misses, if hes not already destroyed by cannon fire, but just getting him to fire ANY AT is the main problem.
+
+I really need to figure out how to make him switch weapons before the engagement. I really would have thought that AI AT soldiers would know better. Thoughts?
+
+FYI this is the single player campaign, not a mission Ive made.
+
+EDIT: [Video footage of the stupidity](https://www.youtube.com/watch?v=ngvLxogxXew)",2014-04-25 19:39:34
+97,First Time Playing Altis Life and Causing Some Havoc (I know better now haha),1,KevinKoolx,23zj9x,arma3,https://www.youtube.com/watch?v=SEy1-IBRmAc&list=UUIz7svCcaLoDPOj-H282ulg,0,,2014-04-25 15:01:56
+98,Arma 3: The Flying Circus (heli/funny/fail-compilation),0,drexciya,23z827,arma3,https://www.youtube.com/watch?v=6YARPCKQJw4,6,,2014-04-25 13:01:17
+99,Battle Royale can be such a troll w/bombing zones,2,Sv3den,23ykch,arma3,http://sveden.tumblr.com/image/83654742012,8,,2014-04-25 08:58:44
